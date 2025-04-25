@@ -985,5 +985,52 @@
       "Graduates(x) ::: x graduates",
       "IsResearcher(x) ::: x is a researcher"
     ]
+  },
+  {
+    "premises-NL": [
+      "A student can withdraw up to 3 courses per academic year if remaining credits ≥ 10 (Year 1, 2) or ≥ 8 (Year 3+); each withdrawal deducts 0.5 credits from total accumulated credits.",
+      "Courses have 3, 4, or 5 credits; withdrawn courses contribute 0 credits to semester GPA.",
+      "Students must register for 12–18 credits per semester; withdrawals reduce semester credits.",
+      "No regulation limits total withdrawals, but max 3 per year.",
+      "A student with < 8 accumulated credits cannot withdraw courses.",
+      "A student (Year 2) has 45 credits, withdrew 2 courses in Year 1 (penalty 1 credit), including C1 (4 credits, withdrawn), C2 (3 credits, withdrawn).",
+      "In Year 2, semester S1, the student registered for 15 credits, withdrew C3 (5 credits), C4 (3 credits), attempted C5 (4 credits, passed)."
+    ],
+    "premises-FOL": [
+      "∀x,y,s (Withdrawals(x, y) ≤ 3 ∧ (Year(x) ≤ 2 → GE(RemainingCredits(x, y, s), 10)) ∧ (Year(x) > 2 → GE(RemainingCredits(x, y, s), 8))) → CanWithdraw(x, y, s) ∧ CreditPenalty(x, Multiply(-0.5, Withdrawals(x, y)))",
+      "∀c (InSet(Credits(c), [3, 4, 5]) ∧ Withdrawn(c) → GPAContribution(c, 0))",
+      "∀x,s (RegisteredCredits(x, s) ∈ Interval(12, 18) ∧ RemainingCredits(x, s) = Subtract(RegisteredCredits(x, s), WithdrawnCredits(x, s)))",
+      "¬∃r (Regulation(r) ∧ LimitsTotalWithdrawals(r)) ∧ ∀x,y (Withdrawals(x, y) ≤ 3)",
+      "∀x (LT(TotalCredits(x), 8) → ¬∃y,s (CanWithdraw(x, y, s)))",
+      "Student(s1) ∧ Year(s1) = 2 ∧ TotalCredits(s1) = 45 ∧ Withdrawals(s1, year1) = 2 ∧ CreditPenalty(s1, -1) ∧ Course(s1, c1) ∧ Credits(c1) = 4 ∧ Withdrawn(c1) ∧ Course(s1, c2) ∧ Credits(c2) = 3 ∧ Withdrawn(c2)",
+      "SemesterCourses(s1, year2, S1, [c3, c4, c5]) ∧ Course(s1, c3) ∧ Credits(c3) = 5 ∧ Withdrawn(c3) ∧ Course(s1, c4) ∧ Credits(c4) = 3 ∧ Withdrawn(c4) ∧ Course(s1, c5) ∧ Credits(c5) = 4 ∧ Passed(c5) ∧ RegisteredCredits(s1, S1) = 15"
+    ],
+    "predicates": [
+      "Withdrawals(x, y) ::: Number of courses withdrawn by student x in academic year y",
+      "Year(x) ::: Academic year of student x",
+      "RemainingCredits(x, y, s) ::: Credits remaining for student x in semester s of year y",
+      "GE(a, b) ::: a ≥ b",
+      "GT(a, b) ::: a > b",
+      "LE(a, b) ::: a ≤ b",
+      "LT(a, b) ::: a < b",
+      "CanWithdraw(x, y, s) ::: Student x is allowed to withdraw in semester s of year y",
+      "CreditPenalty(x, v) ::: Student x receives credit penalty v",
+      "Multiply(a, b) ::: Result of a multiplied by b",
+      "InSet(a, [v1, v2,...]) ::: a ∈ {v1, v2,...}",
+      "GPAContribution(c, v) ::: Course c contributes v to GPA",
+      "RegisteredCredits(x, s) ::: Total credits student x registered in semester s",
+      "WithdrawnCredits(x, s) ::: Total credits withdrawn by x in semester s",
+      "Subtract(a, b) ::: Result of a - b",
+      "Regulation(r) ::: r is a regulation",
+      "LimitsTotalWithdrawals(r) ::: Regulation r limits total number of withdrawals",
+      "TotalCredits(x) ::: Total accumulated credits of student x",
+      "Student(x) ::: x is a student",
+      "Course(x, c) ::: Student x enrolled in course c",
+      "Credits(c) ::: Credit value of course c",
+      "Withdrawn(c) ::: Course c was withdrawn",
+      "Passed(c) ::: Course c was passed",
+      "SemesterCourses(x, y, s, [c1,...]) ::: List of courses taken by student x in year y, semester s",
+      "Interval(a, b) ::: Value is within inclusive interval [a, b]"
+    ]
   }
 ]
