@@ -1,6 +1,7 @@
 from together import Together
 from dotenv import load_dotenv
 import os
+import re
 
 load_dotenv()
 client = Together()
@@ -9,7 +10,7 @@ client = Together()
 
 os.environ["TOGETHER_API_KEY"] = os.getenv("TOGETHER_API_KEY")
 
-LOOP = 3
+LOOP = 2
 MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct-Turbo"
 
 # ================================= SYSTEM PROMPT ================================= #
@@ -49,10 +50,16 @@ Your task is to produce exactly one new inference fact, phrased as a single sent
 """
 
 verification_instructions = (
-    "You are the VERIFICATION module. Given some premises and a yes/no question,\n"
-    "Select ONLY ONE premise that is most relevant to answering the question.\n"
-    "Then, based on that premise alone, answer strictly with 'Yes' or 'No'.\n"
-    "Do NOT explain. Do NOT output anything else. Only reply with 'Yes' or 'No'.\n"
+"""You are the VERIFICATION module. Based only on the premises and the question, determine which of the three question types it is, and reply with exactly one answer as follows:
+
+1. Yes/No/Uncertain: If the question asks for a binary or three-state factual judgment, reply exactly with Yes, No, or Uncertain.  
+
+2. Multiple Choice: If the question offers options labeled A, B, C, or D, reply exactly with one of A, B, C or D.  
+
+3. Enumeration: If the question asks you to list or enumerate items (including filling in blanks or providing numbers), reply with a comma-separated list of the expected entries (e.g. `item1, item2, item3`).  
+
+Do NOT include any explanations, punctuation beyond commas in enumeration, or extra text—only the precise answer as specified above.
+"""
 )
 
 # ================================= PROMPT TEMPLATE ================================= #
@@ -105,67 +112,85 @@ INFERENCE_PROMPT = [
 ]
 
 # ================================= TESTING  ================================= #
+def score_premise(premise: str, ctx_text: str, question: str, current_sel: str):
+    messages = SELECTION_TEMPLATE + [
+        {"role": "user", "content": f"\nContext:\n{ctx_text}\nQuestion: {question}\nSelection:\n{current_sel}{premise}"}
+    ]
+    
+    resp = client.chat.completions.create(
+        model=MODEL_NAME,
+        messages=messages,
+        temperature=0.0,
+        logprobs=1,
+        echo=True,
+        max_tokens=0,
+    )
+    
+    token_logprobs = resp.choices[0].logprobs.token_logprobs
+    return sum(t for t in token_logprobs if t is not None)
 
 premises = [
-  "Learning through play enhances engagement and retention.",
-            "Gamification elements such as rewards and challenges increase motivation.",
-            "If learners actively participate in simulations, they develop problem-solving skills.",
-            "Digital learning platforms provide personalized feedback, which improves learning outcomes.",
-            "Collaborative online environments foster knowledge sharing and deeper understanding.",
-            "If a student interacts with diverse cultural content, they develop a broader worldview.",
-            "Augmented reality (AR) and virtual reality (VR) make abstract concepts more tangible.",
-            "If learners set their own goals, they are more likely to persist in their studies.",
-            "Immediate feedback helps correct misunderstandings before they become ingrained.",
-            "If digital learning is well-structured, it can be as effective as traditional classroom learning.",
-            "If a learning environment is interactive, students are more likely to engage with the material.",
-            "Social learning enhances knowledge retention by encouraging discussion and collaboration.",
-            "If educational content is presented in multiple formats, comprehension improves.",
-            "If a game-based learning platform adapts to a student's progress, they will remain motivated.",
-            "If learners experience real-world applications of knowledge, they are more likely to retain it.",
-            "Repetitive practice in a digital setting reinforces learning through spaced repetition.",
-            "Peer feedback can help learners identify and correct their own mistakes.",
-            "If a student reflects on their learning process, they develop metacognitive skills.",
-            "Students who receive constructive feedback are more likely to improve their performance.",
-            "Engaging digital experiences reduce cognitive overload, making learning more efficient."
+"If a cloud service is not scalable, then it is not reliable.",
+"All cloud services are scalable.",
+"If a cloud service does not meet performance standards, then it does not adhere to security protocols.",
+"All cloud services are thoroughly tested.",
+"If a cloud service meets performance standards, then it is cost-effective.",
+"If a cloud service is not thoroughly tested, then it does not meet performance standards.",
+"If not being thoroughly tested implies that a cloud service does not meet performance standards, then there exists at least one cloud service that is reliable.",
+"If all cloud services are scalable, then all cloud services are thoroughly tested.",
+"If a cloud service is thoroughly tested, then it is reliable.",
+"All cloud services meet performance standards.",
+"If a cloud service meets performance standards, then it is thoroughly tested.",
+"If a cloud service does not meet performance standards, then it is not cost-effective."
 ]
 
-question =  "If a student engages in play-based learning, participates in simulations, receives immediate and constructive feedback, and reflects on their learning, they will retain knowledge more effectively and develop problem-solving skills. Is this statement true?"
+question = "Are all cloud services cost-effective?"
+
+NUM_SELECTIONS = 2
+selected_premises_history = set()
 
 for iteration in range(LOOP):
-    print(f"Iteration {iteration+1}:")
-
     ctx_text = "\n".join(f"{i+1}. {p}" for i, p in enumerate(premises))
     
-    # SELECTION MODULE
-    selection_user = f"\nContext:\n{ctx_text}\nQuestion: {question}\nSelection:\n"
+    # SELECTION MODULE 
+    selections: list[str] = []
+    remaining = premises.copy()
+    current_selection_str = ""
     
-    selection_message = SELECTION_TEMPLATE + [{"role": "user", "content": selection_user}]
-    
-    selection_response = client.chat.completions.create(
-        model=MODEL_NAME,
-        messages=selection_message,
-    )
-    
-    selection_text = selection_response.choices[0].message.content.strip()
+    for _ in range(NUM_SELECTIONS):
+        best_score = -float("inf")
+        best_premise = None
         
-    print("Selected premises:", selection_text)
+        for p in remaining:
+            score = score_premise(p, ctx_text, question, current_selection_str)
+            if score > best_score:
+                best_score, best_premise = score, p
+        
+        current_selection_str += f"{best_premise}. "
+        clean = best_premise.strip().rstrip(".") + "."
+        selections.append(clean)
+        remaining.remove(best_premise)
+
+    selected_premises_history.add(tuple(selections))
     
     # INFERENCE MODULE
-    inference_user = f"\nSelection:\n{selection_text}\nInference:\n"
-    
-    inference_message = INFERENCE_PROMPT + [{"role": "user", "content": inference_user}]
-    
-    inference_response = client.chat.completions.create(
-        model=MODEL_NAME,
-        messages=inference_message,
+    inference_user = (
+        "Selection:\n" +
+        "\n".join(f"- {s}" for s in selections) +
+        "\nInference:\n"
     )
-    
-    new_fact = inference_response.choices[0].message.content.strip()
-    
+    messages = INFERENCE_PROMPT + [
+        {"role": "user", "content": inference_user}
+    ]
+    inf_resp = client.chat.completions.create(
+        model=MODEL_NAME,
+        messages=messages,
+        temperature=0.0
+    )
+    raw = inf_resp.choices[0].message.content.strip()
+    new_fact = re.match(r"[^.?!;\n]+", raw).group(0).strip()
     premises.append(new_fact)
-
-    print("Inferred new fact:", new_fact)
-    print("END OF ITERATION\n")
+    
 
 # VERIFICATION MODULE
 ctx_text = "\n".join(f"{i+1}. {p}" for i, p in enumerate(premises))
@@ -183,5 +208,10 @@ response = client.chat.completions.create(
 )
 
 final_answer = response.choices[0].message.content.strip()
-print("\nFinal answer:", final_answer)
+
+# FINAL ANSWER
+for idx, sels in enumerate(selected_premises_history , start=1):
+    for p in sels:
+        print(p)
+print(final_answer)
 
