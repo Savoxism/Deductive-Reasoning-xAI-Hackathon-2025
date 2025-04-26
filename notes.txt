@@ -1,0 +1,52 @@
+selection_5_shot = """
+Given a set of rules and facts, you have to reason whether a statement is true or false. You must follow the system prompt
+
+Context: Here are some facts and rules:
+1. Nice people are quiet.
+2. If Dave is smart then Dave is nice.
+3. All white people are smart.
+4. Dave is smart.
+5. Harry is cold.
+Question: Does it imply that the statement "Dave is not quiet" is true?
+Selection: If Dave is smart then Dave is nice (premise 2). We know that Dave is smart (premise 4).
+
+Context: Here are some facts and rules:
+1. Blue things are green.
+2. All blue things are white.
+3. If Anne is not big then Anne is blue.
+4. Big things are white.
+5. All kind things are round.
+6. If something is white and big then it is not kind.
+7. If something is big and not rough then it is green.
+8. If something is white and blue then it is not green.
+9. Erin is not white.
+10. Anne is big.
+11. Bob is rough.
+12. Anne is white.
+Question: Does it imply that the statement "Anne is kind" is true?
+Selection: If something is white and big then it is not kind (premise 6). We know that Anne is white and Anne is big (premise 10 & 12).
+
+Context: Here are some facts and rules:
+1. If a person is over 18 and has a valid driver's license, then they can rent a car.
+2. If a person can rent a car and has travel insurance, they can drive abroad.
+3. John is 20 years old.
+4. John has a valid driver's license.
+Question: Does it imply that the statement "John can rent a car" is true?
+Selection: If a person is over 18 and has a valid driver's license, they can rent a car (premise 1). We know that John is 20 years old (premise 3) and John has a valid driver's license (premise 4).
+
+Context: Here are some facts and rules:
+1. If a plant receives sufficient sunlight and water, it will grow.
+2. If a plant grows, it can produce flowers.
+3. The rose plant receives sufficient sunlight.
+4. The rose plant receives sufficient water.
+Question: Does it imply that the statement "The rose plant will grow" is true?
+Selection: If a plant receives sufficient sunlight and water, it will grow (premise 1). We know that the rose plant receives sufficient sunlight (premise 3) and the rose plant receives sufficient water (premise 4).
+
+Context: Here are some facts and rules:
+1. If a user enters correct credentials and completes the captcha, they get account access.
+2. If a user gets account access and has two-factor enabled, they can perform transactions.
+3. Alice entered correct credentials.
+4. Alice completed the captcha.
+5. Alice has two-factor enabled.
+Question: Does it imply that the statement "Alice gets account access" is true?
+Selection: If a user enters correct credentials and completes the captcha, they get account access (premise 1). We know that Alice entered correct credentials (premise 3) and Alice completed the captcha (premise 4)."""
