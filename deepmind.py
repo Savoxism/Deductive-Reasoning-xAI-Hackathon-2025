@@ -6,7 +6,7 @@ import re
 load_dotenv()
 client = Together()
 
-# TOGETHER_API_KEY = "a97c5b69c97abb798cdc7e22e1b3fb7c270945a9ee016fcefba412c7127714b1"
+# TOGETHER_API_KEY = "e686d82b696a086fd7dd6478652f1c55fd332ed03f2aa07baefbb3213158041f"
 
 os.environ["TOGETHER_API_KEY"] = os.getenv("TOGETHER_API_KEY")
 

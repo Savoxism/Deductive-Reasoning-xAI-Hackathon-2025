@@ -5,7 +5,7 @@ from copy import deepcopy
 from pathlib import Path
 from mmengine import load, dump
 
-from prompts import prompt_fn
+from archived.prompts import prompt_fn
 from utils.openai_utils import OpenAIDecodingArguments, get_total_tokens
 from utils.model_utils import ChatBot
 from utils.misc import lstrip_string, compute_metric, get_top_k_voting, compare_results

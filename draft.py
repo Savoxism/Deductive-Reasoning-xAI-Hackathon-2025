@@ -1,15 +1,11 @@
-from together import Together
-import os 
-from dotenv import load_dotenv
+import json
 
-load_dotenv()
+with open('processed_train_v1.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
 
-os.environ["TOGETHER_API_KEY"] = os.getenv("TOGETHER_API_KEY")
+for item in data:
+    if 'questions' in item:
+        item['conclusions'] = item.pop('questions')
 
-client = Together() 
-
-response = client.chat.completions.create(
-    model="meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-    messages=[{"role": "user", "content": "What are some fun things to do in New York?"}]
-)
-print(response.choices[0].message.content)
+with open('processed_train_v1_ver2.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)

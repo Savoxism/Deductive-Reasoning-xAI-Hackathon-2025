@@ -1,0 +1,1938 @@
+[
+  {
+    "prompt": "If something is a mammal and it has wings, it is a bat. We know that The creature is a mammal. and The creature has wings.",
+    "target": "Therefore, the creature is a bat."
+  },
+  {
+    "prompt": "If the dog is barking and it is nighttime, then the dog is a guard dog. We know that The dog is barking. and It is nighttime.",
+    "target": "Therefore, the dog is a guard dog."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green then the birds are singing. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, the birds are singing."
+  },
+  {
+    "prompt": "If a bird is a canary, then it sings loudly. We know that The bird is a canary.",
+    "target": "Therefore, the bird sings loudly."
+  },
+  {
+    "prompt": "If something visits the cow and the cow visits the lion then the lion is nice. We know that the lion visits the cow. and the cow visits the lion.",
+    "target": "Therefore, Therfore, the lion is nice."
+  },
+  {
+    "prompt": "If something is a bird and it can fly, then it has feathers. We know that The eagle is a bird. and The eagle can fly.",
+    "target": "Therefore, the eagle has feathers."
+  },
+  {
+    "prompt": "If the animal is a dog and the animal is happy then the animal wags its tail. We know that The animal is a dog. and The animal is happy.",
+    "target": "Therefore, the animal wags its tail."
+  },
+  {
+    "prompt": "If the sun is shining and the birds are singing, then it is a beautiful day. We know that The sun is shining. and The birds are singing.",
+    "target": "Therefore, it is a beautiful day."
+  },
+  {
+    "prompt": "If someone is a dog person then they like cats. We know that Mary is a dog person.",
+    "target": "Therefore, Mary likes cats."
+  },
+  {
+    "prompt": "If something is a bird and it is black then it flies. We know that The robin is a bird. and The robin is black.",
+    "target": "Therefore, the robin flies."
+  },
+  {
+    "prompt": "If something is a bird then it can fly. We know that The robin is a bird.",
+    "target": "Therefore, the robin can fly."
+  },
+  {
+    "prompt": "If something is kind and friendly then it is happy. We know that The cat is kind. and The cat is friendly.",
+    "target": "Therefore, the cat is happy."
+  },
+  {
+    "prompt": "If the cat is black, then the dog is happy. We know that The cat is black.",
+    "target": "Therefore, Therfore, the dog is happy."
+  },
+  {
+    "prompt": "If the sun is shining and the birds are singing, then it is a nice day. We know that The sun is shining. and The birds are singing.",
+    "target": "Therefore, it is a nice day."
+  },
+  {
+    "prompt": "If the cat is black and the cat is small, then the cat is cute. We know that The cat is black. and The cat is small.",
+    "target": "Therefore, the cat is cute."
+  },
+  {
+    "prompt": "If the sun is shining then it is warm. We know that If the sun is shining then it is warm. and The sun is shining.",
+    "target": "Therefore, it is warm."
+  },
+  {
+    "prompt": "If the item is a fruit and it is yellow then it is ripe. We know that The item is a fruit. and The item is yellow.",
+    "target": "Therefore, the item is ripe."
+  },
+  {
+    "prompt": "If the cat is blue and the dog is green then the bird is yellow. We know that The cat is blue. and The dog is green.",
+    "target": "Therefore, the bird is yellow."
+  },
+  {
+    "prompt": "If something is yellow, it is cold. We know that The apple is yellow.",
+    "target": "Therefore, the apple is cold."
+  },
+  {
+    "prompt": "If something is red and something is round then it is smooth. We know that The ball is red. and The ball is round.",
+    "target": "Therefore, The ball is smooth."
+  },
+  {
+    "prompt": "If something is a bird and it is yellow then it is a canary. We know that The object is a bird. and The object is yellow.",
+    "target": "Therefore, Therfore, The object is a canary."
+  },
+  {
+    "prompt": "If the tree is tall and the sky is blue then the bird sings. We know that The tree is tall. and The sky is blue.",
+    "target": "Therefore, the bird sings."
+  },
+  {
+    "prompt": "If a bird is red and small then it is a robin. We know that The bird is red. and The bird is small.",
+    "target": "Therefore, the bird is a robin."
+  },
+  {
+    "prompt": "If the mailman is arriving and the cat is sleeping, then the house is quiet inside. We know that The mailman is arriving. and The cat is sleeping.",
+    "target": "Therefore, the house is quiet inside."
+  },
+  {
+    "prompt": "If the key is metallic and the key is shiny then the door opens. We know that The key is metallic. and The key is shiny.",
+    "target": "Therefore, the door opens."
+  },
+  {
+    "prompt": "If the cat is green then the dog is yellow. We know that If the cat is green then the dog is yellow. and The cat is green.",
+    "target": "Therefore, the dog is yellow."
+  },
+  {
+    "prompt": "If an animal is a cat and it is black, then it is sneaky. We know that The animal is a cat. and The animal is black.",
+    "target": "Therefore, the animal is sneaky."
+  },
+  {
+    "prompt": "If something barks, then it is noisy. We know that If something is a dog, then it barks. and Fido is a dog.",
+    "target": "Therefore, Fido is noisy."
+  },
+  {
+    "prompt": "The birds are singing. We know that If the sun is shining, then the birds are singing. and The sun is shining.",
+    "target": "Therefore, the birds are singing."
+  },
+  {
+    "prompt": "If a person is a student, then they study hard. We know that Bob is a student.",
+    "target": "Therefore, Bob studies hard."
+  },
+  {
+    "prompt": "If something is a cat then it is furry. We know that If something is brown then it is a cat. and The dog is brown.",
+    "target": "Therefore, the dog is furry."
+  },
+  {
+    "prompt": "If something is red and the banana is yellow then the apple is ripe. We know that The apple is red. and The banana is yellow.",
+    "target": "Therefore, the apple is ripe."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green, then the birds sing. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, the birds sing."
+  },
+  {
+    "prompt": "If the article is boring then the article is difficult. We know that If the article is long then the article is boring. and The article is long.",
+    "target": "Therefore, the article is boring."
+  },
+  {
+    "prompt": "If the car is blue and the truck is big then the car is fast. We know that The car is blue. and The truck is big.",
+    "target": "Therefore, the car is fast."
+  },
+  {
+    "prompt": "If it is raining and the temperature is below freezing, then there is ice. We know that It is raining. and The temperature is below freezing.",
+    "target": "Therefore, there is ice."
+  },
+  {
+    "prompt": "If the vehicle is a car and the car is red then the vehicle is fast. We know that the vehicle is a car. and the vehicle is red.",
+    "target": "Therefore, the vehicle is fast."
+  },
+  {
+    "prompt": "If the animal is a mammal and the animal lives in water then the animal is a dolphin. We know that The animal is a mammal. and The animal lives in water.",
+    "target": "Therefore, the animal is a dolphin."
+  },
+  {
+    "prompt": "If something is a dog, then it barks. We know that Fido is a dog.",
+    "target": "Therefore, Fido barks."
+  },
+  {
+    "prompt": "If the grass is wet and the sun is shining, then a rainbow appears. We know that The grass is wet. and The sun is shining.",
+    "target": "Therefore, a rainbow appears."
+  },
+  {
+    "prompt": "If the dress is cotton, then the shirt is silk. We know that The dress is cotton.",
+    "target": "Therefore, the shirt is silk."
+  },
+  {
+    "prompt": "If the cat is on the mat and the cat is black, then the cat is visible. We know that The cat is on the mat. and The cat is black.",
+    "target": "Therefore, the cat is visible."
+  },
+  {
+    "prompt": "If the cow is red and the sky is blue then the grass is purple. We know that If the moon is green then the cow is red. and The sky is blue.",
+    "target": "Therefore, the cow is red and the sky is blue."
+  },
+  {
+    "prompt": "If it is raining and it is cold then I wear a coat. We know that It is raining. and It is cold.",
+    "target": "Therefore, I wear a coat."
+  },
+  {
+    "prompt": "If the cat is happy, then the dog barks. We know that The cat is happy.",
+    "target": "Therefore, the dog barks."
+  },
+  {
+    "prompt": "If the cat is big then the mouse is small. We know that If the bird is yellow then the cat is big. and The bird is yellow.",
+    "target": "Therefore, the mouse is small."
+  },
+  {
+    "prompt": "If the key is in the box, then the box is locked. We know that The key is in the box.",
+    "target": "Therefore, the box is locked."
+  },
+  {
+    "prompt": "If the cat is brown, then the cat is friendly. We know that The cat is brown.",
+    "target": "Therefore, the cat is friendly."
+  },
+  {
+    "prompt": "If it is raining and it is cold, then I will wear a coat. We know that It is raining. and It is cold.",
+    "target": "Therefore, I will wear a coat."
+  },
+  {
+    "prompt": "If something visits the cow and the cow visits the lion then the lion is nice. We know that the lion visits the cow. and the cow visits the lion.",
+    "target": "Therefore, Therfore, the lion is nice."
+  },
+  {
+    "prompt": "If someone is sad, they listen to sad music. We know that If a person is angry, they do not like ice cream. and John is angry. and If a person does not like ice cream, they are sad.",
+    "target": "Therefore, John listens to sad music."
+  },
+  {
+    "prompt": "If the cat is furry then the cat is cute. We know that If the cat is black then the cat is furry. and The cat is black.",
+    "target": "Therefore, the cat is cute."
+  },
+  {
+    "prompt": "If something has fur then it is warm-blooded. We know that Fido has fur.",
+    "target": "Therefore, Fido is warm-blooded."
+  },
+  {
+    "prompt": "If something is a dog then it is furry. We know that Fido is a dog.",
+    "target": "Therefore, Fido is furry."
+  },
+  {
+    "prompt": "If the dog is friendly and the dog is happy then the dog is furry. We know that The dog is friendly. and The dog is happy.",
+    "target": "Therefore, the dog is furry."
+  },
+  {
+    "prompt": "If something has fur then it is soft. We know that My pet is a cat. and If something is a cat then it has fur.",
+    "target": "Therefore, My pet is soft."
+  },
+  {
+    "prompt": "If something is a fruit and it is sour then it is a lemon. We know that The apple is a fruit. and The apple is sour.",
+    "target": "Therefore, The apple is a lemon."
+  },
+  {
+    "prompt": "If the sun is shining and the birds are singing then it is a beautiful day. We know that The sun is shining. and The birds are singing.",
+    "target": "Therefore, it is a beautiful day."
+  },
+  {
+    "prompt": "If something makes noise and is a dog then it is loud. We know that Fido is a dog. and Fido makes noise.",
+    "target": "Therefore, Fido is loud."
+  },
+  {
+    "prompt": "All nice people eat soup. We know that Bob is nice.",
+    "target": "Therefore, Bob eats soup."
+  },
+  {
+    "prompt": "If the cat is friendly then the dog is noisy. We know that If the cat is friendly then the dog is noisy. and The cat is friendly.",
+    "target": "Therefore, the dog is noisy."
+  },
+  {
+    "prompt": "If the sun is big then the sun is hot. We know that The sun is big.",
+    "target": "Therefore, the sun is hot."
+  },
+  {
+    "prompt": "If an animal is a cat and it is black, then it is lucky. We know that Fido is a cat. and Fido is black.",
+    "target": "Therefore, Fido is lucky."
+  },
+  {
+    "prompt": "If the book is heavy then the table is old. We know that The book is heavy.",
+    "target": "Therefore, the table is old."
+  },
+  {
+    "prompt": "If the dog barks and the cat meows then the bird sings. We know that The dog barks. and The cat meows.",
+    "target": "Therefore, the bird sings."
+  },
+  {
+    "prompt": "If a creature is a mammal and it lives in water then it is a whale. We know that Flipper is a mammal. and Flipper lives in water.",
+    "target": "Therefore, Flipper is a whale."
+  },
+  {
+    "prompt": "If something is a dog and is happy, then it is a mammal. We know that Fido is a dog. and Fido is happy.",
+    "target": "Therefore, Fido is a mammal."
+  },
+  {
+    "prompt": "All dogs bark. We know that All dogs bark. and Fido is a dog.",
+    "target": "Therefore, Fido barks."
+  },
+  {
+    "prompt": "If the sky is clear and the wind is calm, then the balloon flies. We know that The sky is clear. and The wind is calm.",
+    "target": "Therefore, the balloon flies."
+  },
+  {
+    "prompt": "If something is a cat then it likes fish. We know that John is a cat.",
+    "target": "Therefore, John likes fish."
+  },
+  {
+    "prompt": "If the cat is on the mat and the dog is in the yard then the bird sings. We know that The cat is on the mat. and The dog is in the yard.",
+    "target": "Therefore, the bird sings."
+  },
+  {
+    "prompt": "If the robot is heavy, then it is expensive. We know that The robot is metallic. and If the robot is metallic, then it is heavy.",
+    "target": "Therefore, the robot is expensive."
+  },
+  {
+    "prompt": "The fruit is sweet. We know that If the fruit is ripe, then it is sweet. and The fruit is ripe.",
+    "target": "Therefore, {the fruit is sweet}."
+  },
+  {
+    "prompt": "If the animal is a cat, then it is a mammal. We know that The animal is a cat.",
+    "target": "Therefore, the animal is a mammal."
+  },
+  {
+    "prompt": "If the bird is blue then the bird is young. We know that If the bird is blue then the bird is young. and The bird is blue.",
+    "target": "Therefore, the bird is young."
+  },
+  {
+    "prompt": "If something visits the cow and the cow visits the lion then the lion is nice. We know that the lion visits the cow. and the cow visits the lion.",
+    "target": "Therefore, the lion is nice."
+  },
+  {
+    "prompt": "If Fido is a cat and Fido is black, then Fido is sneaky. We know that Fido is a cat. and Fido is black.",
+    "target": "Therefore, Fido is sneaky."
+  },
+  {
+    "prompt": "If something is cold then it visits the garden. We know that If something is green then it is cold. and The cherry is green.",
+    "target": "Therefore, the cherry visits the garden."
+  },
+  {
+    "prompt": "If something is green and round, then it is a fruit. We know that The apple is green. and The apple is round.",
+    "target": "Therefore, The apple is a fruit."
+  },
+  {
+    "prompt": "If the sky is blue then the flowers are blooming. We know that The sun is shining. and If the sun is shining then the birds are singing. and If the birds are singing then the sky is blue.",
+    "target": "Therefore, the flowers are blooming."
+  },
+  {
+    "prompt": "If a cat is fluffy then it is happy. We know that The cat is fluffy.",
+    "target": "Therefore, the cat is happy."
+  },
+  {
+    "prompt": "If something is an animal and it is big, then it is a mammal. We know that The elephant is an animal. and The elephant is big.",
+    "target": "Therefore, The elephant is a mammal."
+  },
+  {
+    "prompt": "If someone is kind, then they are happy. We know that John is kind.",
+    "target": "Therefore, John is happy."
+  },
+  {
+    "prompt": "If something is a cat, then it is furry. We know that The object is a cat.",
+    "target": "Therefore, the object is furry."
+  },
+  {
+    "prompt": "If a bird is in the forest, then it is singing. We know that The parrot is a bird. and The parrot is in the forest.",
+    "target": "Therefore, the parrot is singing."
+  },
+  {
+    "prompt": "If the dog is black and it barks loudly, then the neighbors complain. We know that The dog is black. and The dog barks loudly.",
+    "target": "Therefore, the neighbors complain."
+  },
+  {
+    "prompt": "If a dog is wet and smells bad, then it is noisy. We know that The dog is wet. and The dog smells bad.",
+    "target": "Therefore, the dog is noisy."
+  },
+  {
+    "prompt": "If something is a bird then it can fly. We know that A crow is a bird.",
+    "target": "Therefore, A crow can fly."
+  },
+  {
+    "prompt": "If a bird is blue and it sings, then it is happy. We know that The robin is blue. and The robin sings.",
+    "target": "Therefore, the robin is happy."
+  },
+  {
+    "prompt": "If something is a cat and it is furry, then it purrs. We know that The animal is a cat. and The animal is furry.",
+    "target": "Therefore, the animal purrs."
+  },
+  {
+    "prompt": "The animal has feathers. We know that If the animal is a bird, then it has feathers. and The animal is a bird.",
+    "target": "Therefore, the animal has feathers."
+  },
+  {
+    "prompt": "If something is red and heavy, then it is a fruit. We know that The apple is red. and The apple is heavy.",
+    "target": "Therefore, the apple is a fruit."
+  },
+  {
+    "prompt": "If something can fly, then it has feathers. We know that If something is a bird, then it can fly. and Polly is a bird.",
+    "target": "Therefore, Therfore, Polly has feathers."
+  },
+  {
+    "prompt": "It is warm. We know that If the sun is shining, then it is warm. and The sun is shining.",
+    "target": "Therefore, It is warm."
+  },
+  {
+    "prompt": "If the car is blue then the car is fast. We know that The car is blue.",
+    "target": "Therefore, the car is fast."
+  },
+  {
+    "prompt": "If the ground is wet then the worms come out. We know that If it is raining then the ground is wet. and It is raining.",
+    "target": "Therefore, the worms come out."
+  },
+  {
+    "prompt": "If the animal is a bird then the animal has wings. We know that The animal is a bird.",
+    "target": "Therefore, the animal has wings."
+  },
+  {
+    "prompt": "If it is raining and it is cold then I need a coat. We know that It is raining. and It is cold.",
+    "target": "Therefore, I need a coat."
+  },
+  {
+    "prompt": "If a fruit is red and round, it is an apple. We know that The object is red. and The object is round.",
+    "target": "Therefore, the object is an apple."
+  },
+  {
+    "prompt": "If the key is red and the box is blue, then the door opens. We know that The key is red. and The box is blue.",
+    "target": "Therefore, the door opens."
+  },
+  {
+    "prompt": "If something is small, then it is blue. We know that The ball is small.",
+    "target": "Therefore, The ball is blue."
+  },
+  {
+    "prompt": "If it is raining and it is cold, then I wear a coat. We know that It is raining. and It is cold.",
+    "target": "Therefore, I wear a coat."
+  },
+  {
+    "prompt": "The person is young. We know that The person is cool. and If the person is cool, then the person is young.",
+    "target": "Therefore, Therfore, the person is young."
+  },
+  {
+    "prompt": "If a dog is barking, it is happy. We know that If a dog is barking, it is happy. and The dog is barking.",
+    "target": "Therefore, the dog is happy."
+  },
+  {
+    "prompt": "If the dog is happy and the sky is blue then the grass is green. We know that The dog is happy. and The sky is blue.",
+    "target": "Therefore, the grass is green."
+  },
+  {
+    "prompt": "If a cat is black and a dog is white, then the sky is blue. We know that The cat is black. and The dog is white.",
+    "target": "Therefore, the sky is blue."
+  },
+  {
+    "prompt": "If something is a dog and happy, then it barks. We know that Fido is a dog. and Fido is happy.",
+    "target": "Therefore, Fido barks."
+  },
+  {
+    "prompt": "If a person is a student and they study hard then they pass the exam. We know that John is a student. and John studies hard.",
+    "target": "Therefore, John passes the exam."
+  },
+  {
+    "prompt": "If it rains, the ground is wet. We know that If it rains, the ground is wet. and It is raining.",
+    "target": "Therefore, Therfore, the ground is wet."
+  },
+  {
+    "prompt": "If the weather is sunny and the park is open then we can have a picnic. We know that The weather is sunny. and The park is open.",
+    "target": "Therefore, we can have a picnic."
+  },
+  {
+    "prompt": "If the cat is happy, then the cat purrs. We know that If the cat is happy, then the cat purrs. and The cat is happy.",
+    "target": "Therefore, the cat purrs."
+  },
+  {
+    "prompt": "If the cat is black and the dog is white, then the bird sings. We know that The cat is black. and The dog is white.",
+    "target": "Therefore, the bird sings."
+  },
+  {
+    "prompt": "If the sun is bright and the moon is green then the cat is furry. We know that If the sun is bright then the moon is green. and The sun is bright.",
+    "target": "Therefore, the cat is furry."
+  },
+  {
+    "prompt": "If Fido is a cat then Fido is furry. We know that Fido is a cat.",
+    "target": "Therefore, Fido is furry."
+  },
+  {
+    "prompt": "If the dog barks and the cat meows then the animal is noisy. We know that The dog barks. and The cat meows.",
+    "target": "Therefore, the animal is noisy."
+  },
+  {
+    "prompt": "If something is a dog, then it barks. We know that Fido is a dog.",
+    "target": "Therefore, Fido barks."
+  },
+  {
+    "prompt": "If the cat is furry and the cat is small, then the cat is cute. We know that The cat is furry. and The cat is small.",
+    "target": "Therefore, the cat is cute."
+  },
+  {
+    "prompt": "If the cat is black and the dog is white, then the animal is friendly. We know that The cat is black. and The dog is white.",
+    "target": "Therefore, the animal is friendly."
+  },
+  {
+    "prompt": "If the cake is furry then the cake is not tasty. We know that If the cake is tasty then the cake is furry.",
+    "target": "Therefore, Therfore, the cake is not tasty."
+  },
+  {
+    "prompt": "If the animal is small then the animal is gray. We know that The animal is small.",
+    "target": "Therefore, the animal is gray."
+  },
+  {
+    "prompt": "If the key is lost and the door is locked then I cannot enter. We know that The key is lost. and The door is locked.",
+    "target": "Therefore, I cannot enter."
+  },
+  {
+    "prompt": "If the sun is shining and the birds are singing, then it is a good day. We know that The sun is shining. and The birds are singing.",
+    "target": "Therefore, it is a good day."
+  },
+  {
+    "prompt": "If the sun is shining, then it is daytime. We know that The sun is shining.",
+    "target": "Therefore, it is daytime."
+  },
+  {
+    "prompt": "If something is red and is a fruit then it is an apple. We know that This object is red. and This object is a fruit.",
+    "target": "Therefore, this object is an apple."
+  },
+  {
+    "prompt": "If the ground is wet and it is cold, then there is ice. We know that The ground is wet. and It is cold.",
+    "target": "Therefore, there is ice."
+  },
+  {
+    "prompt": "If a dog is happy then it wags its tail. We know that Fido is a dog. and Fido is happy.",
+    "target": "Therefore, Fido wags its tail."
+  },
+  {
+    "prompt": "If something is a mammal then it is warm-blooded. We know that The cat is a mammal.",
+    "target": "Therefore, the cat is warm-blooded."
+  },
+  {
+    "prompt": "If the sun is yellow, then the moon is white. We know that The sun is yellow.",
+    "target": "Therefore, the moon is white."
+  },
+  {
+    "prompt": "If the bird is sad, then the cat is red. We know that The bird is sad.",
+    "target": "Therefore, the cat is red."
+  },
+  {
+    "prompt": "If a bird is an eagle, then it can fly. We know that The bird is an eagle.",
+    "target": "Therefore, the bird can fly."
+  },
+  {
+    "prompt": "If the cat is black and the dog is white, then the bird is red. We know that The cat is black. and The dog is white.",
+    "target": "Therefore, the bird is red."
+  },
+  {
+    "prompt": "The bike is red. We know that If the truck is blue, then the bike is red. and The truck is blue.",
+    "target": "Therefore, the bike is red."
+  },
+  {
+    "prompt": "If it is raining and it is cold, then I stay inside. We know that It is raining. and It is cold.",
+    "target": "Therefore, I stay inside."
+  },
+  {
+    "prompt": "If the animal barks then it is a dog. We know that The animal barks.",
+    "target": "Therefore, the animal is a dog."
+  },
+  {
+    "prompt": "If a cat purrs then it is content. We know that If a cat is happy then it purrs. and The cat is happy.",
+    "target": "Therefore, the cat is content."
+  },
+  {
+    "prompt": "If something is a dog, then it barks. We know that Fido is a dog.",
+    "target": "Therefore, Fido barks."
+  },
+  {
+    "prompt": "If the cat is black and the dog is white, then the bird is blue. We know that The cat is black. and The dog is white.",
+    "target": "Therefore, Therfore, the bird is blue."
+  },
+  {
+    "prompt": "If the cat is quiet and the dog is loud then the mouse is happy. We know that the cat is quiet. and the dog is loud.",
+    "target": "Therefore, the mouse is happy."
+  },
+  {
+    "prompt": "If someone is a musician and they like jazz, then they are cool. We know that Alice is a musician. and Alice likes jazz.",
+    "target": "Therefore, Alice is cool."
+  },
+  {
+    "prompt": "If something is a dog and is friendly, then it wags its tail. We know that Fido is a dog. and Fido is friendly.",
+    "target": "Therefore, Fido wags its tail."
+  },
+  {
+    "prompt": "If someone is a writer and they live in the city, then they are creative. We know that Bob is a writer. and Bob lives in the city.",
+    "target": "Therefore, Therfore, Bob is creative."
+  },
+  {
+    "prompt": "If the animal has fur, then it likes to nap. We know that The animal has fur.",
+    "target": "Therefore, the animal likes to nap."
+  },
+  {
+    "prompt": "If something is a fruit, it is sweet. We know that Apples are fruits.",
+    "target": "Therefore, Apples are sweet."
+  },
+  {
+    "prompt": "The animal is happy. We know that The animal meows. and If the animal meows, then it is happy.",
+    "target": "Therefore, the animal is happy."
+  },
+  {
+    "prompt": "The cat is fluffy. We know that If something is big then it is fluffy. and The cat is big.",
+    "target": "Therefore, the cat is fluffy."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green, then the weather is nice. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, the weather is nice."
+  },
+  {
+    "prompt": "If something is blue, then it is large. We know that The shape is blue.",
+    "target": "Therefore, the shape is large."
+  },
+  {
+    "prompt": "If the cat is black, then the cat is happy. We know that The cat is black.",
+    "target": "Therefore, the cat is happy."
+  },
+  {
+    "prompt": "If something is green and rough then it is yellow. We know that The box is green. and The box is rough.",
+    "target": "Therefore, the box is yellow."
+  },
+  {
+    "prompt": "If something is wet then it is furry. We know that The mouse is wet. and If something is wet then it is furry.",
+    "target": "Therefore, the mouse is furry."
+  },
+  {
+    "prompt": "If the bird is red and the bird is big then the bird is flying. We know that The bird is red. and The bird is big.",
+    "target": "Therefore, Therfore, the bird is flying."
+  },
+  {
+    "prompt": "If it is warm and it is sunny, then we go to the beach. We know that It is warm. and It is sunny.",
+    "target": "Therefore, Therfore, we go to the beach."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green, then the world is beautiful. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, the world is beautiful."
+  },
+  {
+    "prompt": "If the bear eats the salmon and the bear is big, then the bear is green. We know that If the bear eats the salmon, then the bear is big. and The bear eats the salmon.",
+    "target": "Therefore, Therfore, the bear is green."
+  },
+  {
+    "prompt": "If the animal is fluffy then the animal is not grey. We know that the animal is fluffy.",
+    "target": "Therefore, the animal is not grey."
+  },
+  {
+    "prompt": "If an animal is a bird, then it can fly. We know that A robin is a bird.",
+    "target": "Therefore, A robin can fly."
+  },
+  {
+    "prompt": "Fido barks. We know that If something is a dog, then it barks. and Fido is a dog.",
+    "target": "Therefore, Therfore, Fido barks."
+  },
+  {
+    "prompt": "If the box is heavy and the box is big then the box is hard to move. We know that The box is heavy. and The box is big.",
+    "target": "Therefore, the box is hard to move."
+  },
+  {
+    "prompt": "If something is green then it is a frog. We know that The animal is green.",
+    "target": "Therefore, The animal is a frog."
+  },
+  {
+    "prompt": "If the dog is furry then the mouse is small. We know that The dog is furry.",
+    "target": "Therefore, the mouse is small."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green then the sun is shining. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, the sun is shining."
+  },
+  {
+    "prompt": "If Fido barks, then Fido scares the cat. We know that If Fido is a dog, then Fido barks. and Fido is a dog.",
+    "target": "Therefore, Fido scares the cat."
+  },
+  {
+    "prompt": "If the dog is white then the bird is green. We know that If the dog is white then the bird is green. and The bird is not green.",
+    "target": "Therefore, the dog is not white."
+  },
+  {
+    "prompt": "If the sheep is big and the bear is young then the bear is yellow. We know that the sheep is big. and the bear is young.",
+    "target": "Therefore, the bear is yellow."
+  },
+  {
+    "prompt": "If something is blue, then it is sad. We know that The dog is blue.",
+    "target": "Therefore, the dog is sad."
+  },
+  {
+    "prompt": "If the cat is happy, then the cat purrs. We know that If the cat is furry, then the cat is happy. and The cat is furry.",
+    "target": "Therefore, the cat purrs."
+  },
+  {
+    "prompt": "If the animal has fur, then the animal is a mammal. We know that If the animal is a cat, then the animal has fur. and The animal is a cat.",
+    "target": "Therefore, the animal is a mammal."
+  },
+  {
+    "prompt": "If it is raining and it is cold, then I wear a coat. We know that It is raining. and It is cold.",
+    "target": "Therefore, I wear a coat."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green, then it is sunny. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, it is sunny."
+  },
+  {
+    "prompt": "If the bear is cold then the bear is rough. We know that If the bear is furry then the bear is big. and If the bear is big then the bear is cold.",
+    "target": "Therefore, the bear is rough."
+  },
+  {
+    "prompt": "If the animal is a cat and the animal is black then the animal is furry. We know that the animal is a cat. and the animal is black.",
+    "target": "Therefore, Therfore, the animal is furry."
+  },
+  {
+    "prompt": "If the sky is clear and the moon is full then the wolves howl. We know that The sky is clear. and The moon is full.",
+    "target": "Therefore, the wolves howl."
+  },
+  {
+    "prompt": "If the bird is loud, then the bird is fast. We know that If the bird is blue, then the bird is loud. and The bird is blue.",
+    "target": "Therefore, the bird is fast."
+  },
+  {
+    "prompt": "If something is a dog, then it barks. We know that Fido is a dog.",
+    "target": "Therefore, Fido barks."
+  },
+  {
+    "prompt": "If the dog is big, then the dog is blue. We know that The dog is big.",
+    "target": "Therefore, {the dog is blue}."
+  },
+  {
+    "prompt": "If the bird is in the nest then the bird is happy. We know that The bird is in the nest.",
+    "target": "Therefore, the bird is happy."
+  },
+  {
+    "prompt": "If a person is a king, then they wear a crown. We know that John is a king.",
+    "target": "Therefore, John wears a crown."
+  },
+  {
+    "prompt": "If the animal is a mammal and the animal is large, then the animal has a heart. We know that The animal is a mammal. and The animal is large.",
+    "target": "Therefore, the animal has a heart."
+  },
+  {
+    "prompt": "If something visits the cow and the cow visits the lion then the lion is nice. We know that the lion visits the cow. and the cow visits the lion.",
+    "target": "Therefore, Therfore, the lion is nice."
+  },
+  {
+    "prompt": "If Fido is a dog then Fido barks. We know that Fido is a dog.",
+    "target": "Therefore, Fido barks."
+  },
+  {
+    "prompt": "If the cat is fluffy, then the cat is happy. We know that The cat is fluffy.",
+    "target": "Therefore, the cat is happy."
+  },
+  {
+    "prompt": "If the bird is green then the bird is nice. We know that The bird is green. and If the bird is green then the bird is nice.",
+    "target": "Therefore, Therfore, the bird is nice."
+  },
+  {
+    "prompt": "If the sun is shining and the birds are singing, then I am happy. We know that The sun is shining. and The birds are singing.",
+    "target": "Therefore, I am happy."
+  },
+  {
+    "prompt": "If someone likes apples and someone likes bananas, then they will share fruit. We know that Alice likes apples. and Bob likes bananas.",
+    "target": "Therefore, they will share fruit."
+  },
+  {
+    "prompt": "If something is red then it is heavy. We know that The box is red.",
+    "target": "Therefore, the box is heavy."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green then the birds sing. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, the birds sing."
+  },
+  {
+    "prompt": "If Fido likes bones, then Fido wags his tail. We know that Fido likes bones.",
+    "target": "Therefore, Fido wags his tail."
+  },
+  {
+    "prompt": "The leaves are green. We know that If the plant is watered, then the leaves are green. and The plant is watered.",
+    "target": "Therefore, Therfore, the leaves are green."
+  },
+  {
+    "prompt": "If something is a cat and it is black then it is scary. We know that the dog is a cat. and the dog is black.",
+    "target": "Therefore, the dog is scary."
+  },
+  {
+    "prompt": "If something is a fruit and it is round then it is edible. We know that The apple is a fruit. and The apple is round.",
+    "target": "Therefore, Therfore, the apple is edible."
+  },
+  {
+    "prompt": "If the plant is a rose, then the plant is red. We know that The plant is a rose.",
+    "target": "Therefore, Therfore, the plant is red."
+  },
+  {
+    "prompt": "If the cat is happy then the bird sings. We know that If the dog is cold then the cat is happy. and The dog is cold.",
+    "target": "Therefore, the bird sings."
+  },
+  {
+    "prompt": "If something is green, then it is big. We know that The dog is green.",
+    "target": "Therefore, the dog is big."
+  },
+  {
+    "prompt": "If it is raining and it is cold, then the streets are wet. We know that It is raining. and It is cold.",
+    "target": "Therefore, the streets are wet."
+  },
+  {
+    "prompt": "If the dog is white and the bird is blue then the mouse is gray. We know that The dog is white. and The bird is blue.",
+    "target": "Therefore, the mouse is gray."
+  },
+  {
+    "prompt": "If the dog is sad then the bird is singing. We know that The dog is sad.",
+    "target": "Therefore, the bird is singing."
+  },
+  {
+    "prompt": "If Fido is a dog, then Fido barks. We know that Fido is a dog.",
+    "target": "Therefore, {Fido barks}."
+  },
+  {
+    "prompt": "If the sun is warm, then the sky is clear. We know that The sun is warm.",
+    "target": "Therefore, the sky is clear."
+  },
+  {
+    "prompt": "If something is purple then it is happy. We know that the cat is purple.",
+    "target": "Therefore, Therfore, the cat is happy."
+  },
+  {
+    "prompt": "If something is white then it is red. We know that The cat is white.",
+    "target": "Therefore, The cat is red."
+  },
+  {
+    "prompt": "If the sun is shining, then it is warm. We know that The sun is shining.",
+    "target": "Therefore, it is warm."
+  },
+  {
+    "prompt": "If Alice is a student and Bob is a teacher then they are in a class together. We know that Alice is a student. and Bob is a teacher.",
+    "target": "Therefore, Therfore, they are in a class together."
+  },
+  {
+    "prompt": "The cat is cute. We know that If a cat is black, then it is cute. and The cat is black.",
+    "target": "Therefore, the cat is cute."
+  },
+  {
+    "prompt": "If the cat is furry then the cat is quick. We know that If the cat is furry then the cat is quick. and The cat is furry.",
+    "target": "Therefore, the cat is quick."
+  },
+  {
+    "prompt": "If something is a dog then it is furry. We know that Rover is a dog.",
+    "target": "Therefore, Therfore, Rover is furry."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green, then the weather is nice. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, the weather is nice."
+  },
+  {
+    "prompt": "If Fido makes noise and Fido is a dog then Fido is happy. We know that Fido makes noise. and Fido is a dog.",
+    "target": "Therefore, Therfore, Fido is happy."
+  },
+  {
+    "prompt": "If it is raining and it is cold then I wear a coat. We know that It is raining. and It is cold.",
+    "target": "Therefore, I wear a coat."
+  },
+  {
+    "prompt": "If something is a dog then it barks. We know that Fido is a dog.",
+    "target": "Therefore, Fido barks."
+  },
+  {
+    "prompt": "If the cat is on the mat and the dog is sleeping then the house is quiet. We know that The cat is on the mat. and The dog is sleeping.",
+    "target": "Therefore, the house is quiet."
+  },
+  {
+    "prompt": "If a person is a doctor and they are kind, then they are respected. We know that John is a doctor. and John is kind.",
+    "target": "Therefore, John is respected."
+  },
+  {
+    "prompt": "If something is rough then it visits the lion. We know that The mouse is rough.",
+    "target": "Therefore, the mouse visits the lion."
+  },
+  {
+    "prompt": "If something is big then it is fast. We know that The robin is big.",
+    "target": "Therefore, the robin is fast."
+  },
+  {
+    "prompt": "If a bird is red then it can fly. We know that The robin is a bird. and The robin is red.",
+    "target": "Therefore, the robin can fly."
+  },
+  {
+    "prompt": "If something is red and round, then it is an apple. We know that This fruit is red. and This fruit is round.",
+    "target": "Therefore, this fruit is an apple."
+  },
+  {
+    "prompt": "If something is red, it bounces. We know that The ball is red.",
+    "target": "Therefore, the ball bounces."
+  },
+  {
+    "prompt": "If the cat is scared and the dog barks then the mailman runs away. We know that The cat is scared. and The dog barks.",
+    "target": "Therefore, the mailman runs away."
+  },
+  {
+    "prompt": "If the user is happy then the system is good. We know that The system is bad.",
+    "target": "Therefore, the system is not good."
+  },
+  {
+    "prompt": "If something is a bird and it can fly, then it is an eagle. We know that The creature is a bird. and The creature can fly.",
+    "target": "Therefore, Therfore, the creature is an eagle."
+  },
+  {
+    "prompt": "If the animal meows then it is small. We know that If the animal is a cat then it is furry. and The animal is a cat. and If the animal is furry then it meows.",
+    "target": "Therefore, it is small."
+  },
+  {
+    "prompt": "If the dog is barking and the bird is singing then the cat is scared. We know that The dog is barking. and The bird is singing.",
+    "target": "Therefore, the cat is scared."
+  },
+  {
+    "prompt": "If someone is a singer, they are happy. We know that If someone is a singer, they are happy. and Bob is a singer.",
+    "target": "Therefore, Bob is happy."
+  },
+  {
+    "prompt": "If it is hot and it is cold, then the ice cream melts. We know that It is hot. and It is cold.",
+    "target": "Therefore, Therfore, the ice cream melts."
+  },
+  {
+    "prompt": "If Tweety can fly, then Tweety is happy. We know that All birds can fly. and Tweety is a bird.",
+    "target": "Therefore, Tweety is happy."
+  },
+  {
+    "prompt": "If the vehicle is a truck then the vehicle is large. We know that If the vehicle is a truck then the vehicle is large. and The vehicle is a truck.",
+    "target": "Therefore, the vehicle is large."
+  },
+  {
+    "prompt": "If someone is a cat and they are furry, then they are an animal. We know that Felix is a cat. and Felix is furry.",
+    "target": "Therefore, Felix is an animal."
+  },
+  {
+    "prompt": "If the cat is on the mat then the dog is in the yard. We know that The cat is on the mat.",
+    "target": "Therefore, the dog is in the yard."
+  },
+  {
+    "prompt": "If something is black and small then it is cute. We know that The cat is black. and The cat is small.",
+    "target": "Therefore, The cat is cute."
+  },
+  {
+    "prompt": "If the bird is small, then the bird is red. We know that If the bird is small, then the bird is red. and If the bird is red, then the bird is loud.",
+    "target": "Therefore, the bird is loud."
+  },
+  {
+    "prompt": "If the cat is hungry and the dog is asleep, then the mouse is safe. We know that The cat is hungry. and The dog is asleep.",
+    "target": "Therefore, the mouse is safe."
+  },
+  {
+    "prompt": "If a car is fast, it is expensive. We know that If a car is red, it is fast. and The car is red.",
+    "target": "Therefore, the car is expensive."
+  },
+  {
+    "prompt": "If someone likes tuna and is a cat person, they are happy. We know that John likes tuna. and John is a cat person.",
+    "target": "Therefore, John is happy."
+  },
+  {
+    "prompt": "If Fido is a dog and all dogs bark then Fido barks. We know that Fido is a dog. and All dogs bark.",
+    "target": "Therefore, Fido barks."
+  },
+  {
+    "prompt": "If Tweety is a bird and Tweety is a robin, then Tweety can fly. We know that Tweety is a bird. and Tweety is a robin.",
+    "target": "Therefore, Tweety can fly."
+  },
+  {
+    "prompt": "If Fido is a dog, then Fido is an animal. We know that Fido is a dog.",
+    "target": "Therefore, Fido is an animal."
+  },
+  {
+    "prompt": "If the dog visits the farm, then the dog is happy. We know that The dog visits the farm.",
+    "target": "Therefore, the dog is happy."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green then the world is beautiful. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, the world is beautiful."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green, then the weather is good. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, the weather is good."
+  },
+  {
+    "prompt": "If an animal is big, then it likes peanuts. We know that If an animal is grey, then it is big. and The elephant is grey.",
+    "target": "Therefore, the elephant likes peanuts."
+  },
+  {
+    "prompt": "If the animal is a bird and the animal is blue then the animal sings. We know that The animal is a bird. and The animal is blue.",
+    "target": "Therefore, the animal sings."
+  },
+  {
+    "prompt": "All cats like milk. We know that Fluffy is a cat.",
+    "target": "Therefore, Fluffy likes milk."
+  },
+  {
+    "prompt": "If it is raining, then it is not warm. We know that It is raining.",
+    "target": "Therefore, Therfore, it is not warm."
+  },
+  {
+    "prompt": "If something is red and round, then it is an apple. We know that The ball is red. and The ball is round.",
+    "target": "Therefore, the ball is an apple."
+  },
+  {
+    "prompt": "If something has wings, then it can fly. We know that If something is a bird, then it has wings. and Polly is a bird.",
+    "target": "Therefore, it can fly."
+  },
+  {
+    "prompt": "If something is fluffy and it chases the mouse then it is scary. We know that The cat is fluffy. and The cat chases the mouse.",
+    "target": "Therefore, the cat is scary."
+  },
+  {
+    "prompt": "If the cat is white, then the dog is fluffy. We know that The cat is white.",
+    "target": "Therefore, the dog is fluffy."
+  },
+  {
+    "prompt": "If the cat is fluffy and the cat is black then the cat is nice. We know that The cat is fluffy. and The cat is black.",
+    "target": "Therefore, the cat is nice."
+  },
+  {
+    "prompt": "If it is raining and the sky is grey, then I will take an umbrella. We know that It is raining. and The sky is grey.",
+    "target": "Therefore, I will take an umbrella."
+  },
+  {
+    "prompt": "If a bird is blue, then it can fly. We know that If a bird is blue, then it can fly. and The bird is blue.",
+    "target": "Therefore, the bird can fly."
+  },
+  {
+    "prompt": "If the animal is a mammal and the animal barks then the animal is a dog. We know that The animal is a mammal. and The animal barks.",
+    "target": "Therefore, the animal is a dog."
+  },
+  {
+    "prompt": "If the bear is furry, then the bear eats the mouse. We know that The bear is furry.",
+    "target": "Therefore, the bear eats the mouse."
+  },
+  {
+    "prompt": "If someone is tall and they are strong, then they are an athlete. We know that Bob is tall. and Bob is strong.",
+    "target": "Therefore, Bob is an athlete."
+  },
+  {
+    "prompt": "If something visits the cow and the cow visits the lion then the lion is nice. We know that the lion visits the cow. and the cow visits the lion.",
+    "target": "Therefore, the lion is nice."
+  },
+  {
+    "prompt": "If something is small and happy then it is cold. We know that The cat is small. and The cat is happy.",
+    "target": "Therefore, the cat is cold."
+  },
+  {
+    "prompt": "If the cat is small, then the cat is furry. We know that The cat is small.",
+    "target": "Therefore, {the cat is furry}."
+  },
+  {
+    "prompt": "If a dog barks then it is awake. We know that The dog barks.",
+    "target": "Therefore, the dog is awake."
+  },
+  {
+    "prompt": "If something is nice it visits the lion. We know that If something visits the cow and the cow visits the lion then the lion is nice.",
+    "target": "Therefore, the lion visits the lion."
+  },
+  {
+    "prompt": "If the bird is large and the dog is happy then the cat is black. We know that The dog is happy. and The bird is large.",
+    "target": "Therefore, the cat is black."
+  },
+  {
+    "prompt": "If Rover likes bones, then Rover barks. We know that If someone is a dog, they are furry. and Rover is a dog. and If someone is furry, they like bones.",
+    "target": "Therefore, Rover barks."
+  },
+  {
+    "prompt": "If a person is happy and they sing, then they like music. We know that Mary is happy. and Mary sings.",
+    "target": "Therefore, Mary likes music."
+  },
+  {
+    "prompt": "If a creature is happy, then it likes sunshine. We know that The dog is happy.",
+    "target": "Therefore, The dog likes sunshine."
+  },
+  {
+    "prompt": "If the cat is brown and the cat is friendly, then the cat is furry. We know that The cat is brown. and The cat is friendly.",
+    "target": "Therefore, the cat is furry."
+  },
+  {
+    "prompt": "If the snake is furry then the snake is nice. We know that The snake is furry.",
+    "target": "Therefore, Therfore, the snake is nice."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green, then the weather is nice. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, the weather is nice."
+  },
+  {
+    "prompt": "If the apple is red and the apple is round then the apple is a fruit. We know that The apple is red. and The apple is round.",
+    "target": "Therefore, the apple is a fruit."
+  },
+  {
+    "prompt": "If the cat is purple, then the cat is quiet. We know that If the cat is small, then the cat is purple. and The cat is small.",
+    "target": "Therefore, Therfore, the cat is quiet."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green then the sun is shining. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, the sun is shining."
+  },
+  {
+    "prompt": "If the sun is shining and the birds are singing, then it is a nice day. We know that The sun is shining. and The birds are singing.",
+    "target": "Therefore, it is a nice day."
+  },
+  {
+    "prompt": "If something is a cat and it is black, then it is sneaky. We know that The animal is a cat. and The animal is black.",
+    "target": "Therefore, Therfore, the animal is sneaky."
+  },
+  {
+    "prompt": "If the cat is black and the cat is small, then the cat is cute. We know that The cat is black. and The cat is small.",
+    "target": "Therefore, Therfore, the cat is cute."
+  },
+  {
+    "prompt": "If something is red then it is large. We know that the box is red.",
+    "target": "Therefore, the box is large."
+  },
+  {
+    "prompt": "If the light is red, then the car stops. We know that The light is red.",
+    "target": "Therefore, Therfore, the car stops."
+  },
+  {
+    "prompt": "If the bird is happy and the bird sings then the bird is visible. We know that The bird is happy. and The bird sings.",
+    "target": "Therefore, Therfore, the bird is visible."
+  },
+  {
+    "prompt": "If the cat is big and the cat is furry then the cat is cute. We know that The cat is big. and The cat is furry.",
+    "target": "Therefore, the cat is cute."
+  },
+  {
+    "prompt": "If a cat is happy, then it purrs. We know that Fluffy is a cat. and Fluffy is happy.",
+    "target": "Therefore, Fluffy purrs."
+  },
+  {
+    "prompt": "If the dog is barking and the cat is meowing then the house is noisy. We know that The dog is barking. and The cat is meowing.",
+    "target": "Therefore, the house is noisy."
+  },
+  {
+    "prompt": "If Sam is a cat then Sam is fluffy. We know that Sam is a cat.",
+    "target": "Therefore, Sam is fluffy."
+  },
+  {
+    "prompt": "If something can fly, then it has feathers. We know that If something is a bird, then it can fly. and A sparrow is a bird.",
+    "target": "Therefore, a sparrow has feathers."
+  },
+  {
+    "prompt": "If the cat is happy, then the cat is purring. We know that If the cat is happy, then the cat is purring. and The cat is happy.",
+    "target": "Therefore, the cat is purring."
+  },
+  {
+    "prompt": "If the cat is furry, then the cat is happy. We know that The cat is furry.",
+    "target": "Therefore, the cat is happy."
+  },
+  {
+    "prompt": "If something is a dog and it barks then it is happy. We know that Fido is a dog. and Fido barks.",
+    "target": "Therefore, Fido is happy."
+  },
+  {
+    "prompt": "If the bear is furry, then the bear is not big. We know that The bear is furry.",
+    "target": "Therefore, the bear is not big."
+  },
+  {
+    "prompt": "If the bear is big and the bear is yellow, then the bear is cold. We know that The bear is big. and The bear is yellow.",
+    "target": "Therefore, the bear is cold."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green then the birds sing. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, the birds sing."
+  },
+  {
+    "prompt": "If the sun is shining and the weather is warm then it is a good day. We know that The sun is shining. and The weather is warm.",
+    "target": "Therefore, it is a good day."
+  },
+  {
+    "prompt": "If the animal is a cat, then the animal is a mammal. We know that The animal is a cat.",
+    "target": "Therefore, the animal is a mammal."
+  },
+  {
+    "prompt": "If the key is metal and the door is locked, then the door opens. We know that The key is metal. and The door is locked.",
+    "target": "Therefore, the door opens."
+  },
+  {
+    "prompt": "If something barks then it is loud. We know that If something is a dog then it barks. and Fido is a dog.",
+    "target": "Therefore, Fido is loud."
+  },
+  {
+    "prompt": "If the dog is happy and the cat is sad then the mouse is quick. We know that The dog is happy. and The cat is sad.",
+    "target": "Therefore, Therfore, the mouse is quick."
+  },
+  {
+    "prompt": "If the bear is cold, then the bear is gray. We know that The bear is cold.",
+    "target": "Therefore, the bear is gray."
+  },
+  {
+    "prompt": "If the cat is in the garden, then the cat is friendly. We know that The cat is not friendly.",
+    "target": "Therefore, the cat is not in the garden."
+  },
+  {
+    "prompt": "If something is a dog then it is a mammal. We know that Fido is a dog.",
+    "target": "Therefore, Fido is a mammal."
+  },
+  {
+    "prompt": "All dogs have tails. We know that Fido is a dog.",
+    "target": "Therefore, Fido has a tail."
+  },
+  {
+    "prompt": "If it is raining, then the ground is wet. We know that It is raining.",
+    "target": "Therefore, the ground is wet."
+  },
+  {
+    "prompt": "If a bird is yellow, then it is cold. We know that The bird is yellow.",
+    "target": "Therefore, the bird is cold."
+  },
+  {
+    "prompt": "If the mouse is furry and the cat is big, then the bear is big. We know that The mouse is furry. and The cat is big.",
+    "target": "Therefore, the bear is big."
+  },
+  {
+    "prompt": "If the apple is red, then the apple is a fruit. We know that The apple is red.",
+    "target": "Therefore, the apple is a fruit."
+  },
+  {
+    "prompt": "If something is a fruit, then it is sweet. We know that An apple is a fruit.",
+    "target": "Therefore, An apple is sweet."
+  },
+  {
+    "prompt": "If the weather is sunny and it is warm then we go to the beach. We know that The weather is sunny. and It is warm.",
+    "target": "Therefore, we go to the beach."
+  },
+  {
+    "prompt": "If something has wings, then it can fly. We know that The sparrow has wings.",
+    "target": "Therefore, the sparrow can fly."
+  },
+  {
+    "prompt": "If the picnic is enjoyable and there is music then everyone will dance. We know that If the weather is sunny then the picnic will be enjoyable. and There is music.",
+    "target": "Therefore, everyone will dance."
+  },
+  {
+    "prompt": "If the food is a vegetable then it is healthy. We know that Broccoli is a vegetable.",
+    "target": "Therefore, Broccoli is healthy."
+  },
+  {
+    "prompt": "If the cake is sweet then the cake is tasty. We know that The cake is not tasty. and If the cake is sweet then the cake is tasty.",
+    "target": "Therefore, the cake is not sweet."
+  },
+  {
+    "prompt": "If the cat is furry, then the cat is soft. We know that If the cat is black, then the cat is furry. and The cat is black.",
+    "target": "Therefore, the cat is soft."
+  },
+  {
+    "prompt": "If the grass is green, then the birds sing. We know that If the sky is blue, then the grass is green. and The sky is blue.",
+    "target": "Therefore, Therfore, the birds sing."
+  },
+  {
+    "prompt": "If the cake is tasty, then the party is fun. We know that The cake is tasty. and If the cake is tasty, then the party is fun.",
+    "target": "Therefore, Therfore, the party is fun."
+  },
+  {
+    "prompt": "If the bear is young then the bear is furry. We know that The bear is young.",
+    "target": "Therefore, the bear is furry."
+  },
+  {
+    "prompt": "If the plant is a rose, then it is red. We know that The plant is a rose.",
+    "target": "Therefore, it is red."
+  },
+  {
+    "prompt": "If the birds are singing then the flowers are blooming. We know that If the sun is shining then the birds are singing. and The sun is shining.",
+    "target": "Therefore, the flowers are blooming."
+  },
+  {
+    "prompt": "If the bird is in the cage, then the bird is not free. We know that The bird is in the cage. and If the bird is in the cage, then the bird is not free.",
+    "target": "Therefore, the bird is not free."
+  },
+  {
+    "prompt": "If the animal is a dog and the animal is happy, then the animal wags its tail. We know that The animal is a dog. and The animal is happy.",
+    "target": "Therefore, the animal wags its tail."
+  },
+  {
+    "prompt": "If the sky is clear and it is nighttime then I can see the stars. We know that The sky is clear. and It is nighttime.",
+    "target": "Therefore, Therfore, I can see the stars."
+  },
+  {
+    "prompt": "If an object is blue, then it is round. We know that The square is blue.",
+    "target": "Therefore, The square is round."
+  },
+  {
+    "prompt": "If Garfield is black, then Garfield is a mammal. We know that Garfield is black.",
+    "target": "Therefore, Garfield is a mammal."
+  },
+  {
+    "prompt": "If the animal is a cat then it meows. We know that The animal is a cat.",
+    "target": "Therefore, the animal meows."
+  },
+  {
+    "prompt": "If the mouse is small then the elephant is large. We know that If the bear is big then the mouse is small. and the bear is big.",
+    "target": "Therefore, Therfore, the elephant is large."
+  },
+  {
+    "prompt": "If something is a cat then it likes fish. We know that The animal is a cat.",
+    "target": "Therefore, the animal likes fish."
+  },
+  {
+    "prompt": "If the cat is nice then the mouse is green. We know that The cat is nice.",
+    "target": "Therefore, the mouse is green."
+  },
+  {
+    "prompt": "If the sun is shining then the sky is blue. We know that The sun is shining.",
+    "target": "Therefore, the sky is blue."
+  },
+  {
+    "prompt": "If it is raining and cold, the birds stay inside. We know that It is raining. and It is cold.",
+    "target": "Therefore, Therfore, the birds stay inside."
+  },
+  {
+    "prompt": "If the guests are happy, then there is dancing. We know that The guests are happy.",
+    "target": "Therefore, there is dancing."
+  },
+  {
+    "prompt": "If Dan is a squirrel then Dan is smart. We know that Dan is a squirrel.",
+    "target": "Therefore, Dan is smart."
+  },
+  {
+    "prompt": "If the cat is black and the cat is fluffy, then the cat is happy. We know that The cat is black. and The cat is fluffy.",
+    "target": "Therefore, the cat is happy."
+  },
+  {
+    "prompt": "If the key is metal and the key is small, then the box opens. We know that The key is metal. and The key is small.",
+    "target": "Therefore, the box opens."
+  },
+  {
+    "prompt": "If it is raining and the ground is wet, then I need an umbrella. We know that It is raining. and The ground is wet.",
+    "target": "Therefore, I need an umbrella."
+  },
+  {
+    "prompt": "If the dog is nice, then the mouse is furry. We know that If the cat is large, then the dog is nice. and The cat is large.",
+    "target": "Therefore, the dog is nice."
+  },
+  {
+    "prompt": "If something is a dog then it barks. We know that Fido is a dog.",
+    "target": "Therefore, Therfore, Fido barks."
+  },
+  {
+    "prompt": "If the cat is happy then the cat purrs. We know that If the cat is furry then the cat is soft. and If the cat is soft then the cat is happy. and the cat is furry.",
+    "target": "Therefore, the cat purrs."
+  },
+  {
+    "prompt": "If the cat is happy then the cat is purring. We know that If the cat is friendly then the cat is happy. and The cat is friendly.",
+    "target": "Therefore, the cat is purring."
+  },
+  {
+    "prompt": "If the team wins, then we celebrate. We know that The team wins.",
+    "target": "Therefore, we celebrate."
+  },
+  {
+    "prompt": "If something is furry and nice then it visits the bear. We know that The cat is furry. and The cat is nice.",
+    "target": "Therefore, the cat visits the bear."
+  },
+  {
+    "prompt": "If something is heavy, then it is red. We know that The chair is heavy.",
+    "target": "Therefore, the chair is red."
+  },
+  {
+    "prompt": "If the car is blue then the car is big. We know that The car is blue.",
+    "target": "Therefore, the car is big."
+  },
+  {
+    "prompt": "If the system is working well then the data is consistent. We know that The system is working well.",
+    "target": "Therefore, the data is consistent."
+  },
+  {
+    "prompt": "It is a good day. We know that The sun shines. and The birds sing.",
+    "target": "Therefore, It is a good day."
+  },
+  {
+    "prompt": "If the key is turned and the battery is charged then the engine starts. We know that The key is turned. and The battery is charged.",
+    "target": "Therefore, the engine starts."
+  },
+  {
+    "prompt": "If something is an animal, then it barks. We know that If something is a dog, then it is an animal. and Fido is a dog.",
+    "target": "Therefore, Fido barks."
+  },
+  {
+    "prompt": "the flowers are red. We know that the grass is green. and If the grass is green then the flowers are red.",
+    "target": "Therefore, the flowers are red."
+  },
+  {
+    "prompt": "If it is warm and the birds are singing then people are happy. We know that It is warm. and The birds are singing.",
+    "target": "Therefore, people are happy."
+  },
+  {
+    "prompt": "If we eat sandwiches, we will need napkins. We know that We will eat sandwiches.",
+    "target": "Therefore, we will need napkins."
+  },
+  {
+    "prompt": "If a animal is a bird, then it has wings. We know that The robin is a bird.",
+    "target": "Therefore, the robin has wings."
+  },
+  {
+    "prompt": "If the sun is shining and the birds are singing, then the day is perfect. We know that The sun is shining. and The birds are singing.",
+    "target": "Therefore, the day is perfect."
+  },
+  {
+    "prompt": "If the cat is happy and the dog is sad, then the bird sings. We know that The cat is happy. and The dog is sad.",
+    "target": "Therefore, the bird sings."
+  },
+  {
+    "prompt": "If the sky is clear, then we can see the stars at night. We know that The sky is clear.",
+    "target": "Therefore, we can see the stars at night."
+  },
+  {
+    "prompt": "If something is a dog then it is fluffy. We know that The dog is a dog.",
+    "target": "Therefore, the dog is fluffy."
+  },
+  {
+    "prompt": "If the bear is big then the bear is green. We know that The bear is big.",
+    "target": "Therefore, Therfore, the bear is green."
+  },
+  {
+    "prompt": "The bird is green. We know that If the bird is red then the bird is green. and The bird is red.",
+    "target": "Therefore, the bird is green."
+  },
+  {
+    "prompt": "If the cat is large and the cat is furry, then the cat is black. We know that The cat is large. and The cat is furry.",
+    "target": "Therefore, Therfore, the cat is black."
+  },
+  {
+    "prompt": "If it is raining then the ground is wet. We know that The ground is not wet.",
+    "target": "Therefore, it is not raining."
+  },
+  {
+    "prompt": "If Alice is tall and Bob is short then Carol is medium. We know that Alice is tall. and Bob is short.",
+    "target": "Therefore, Carol is medium."
+  },
+  {
+    "prompt": "If something is big and it is blue then it is cold. We know that The box is big. and The box is blue.",
+    "target": "Therefore, Therfore, the box is cold."
+  },
+  {
+    "prompt": "If a cat is furry, then the cat is happy. We know that Fluffy is furry.",
+    "target": "Therefore, Fluffy is happy."
+  },
+  {
+    "prompt": "If a dog is brown then it is friendly. We know that The dog is brown.",
+    "target": "Therefore, the dog is friendly."
+  },
+  {
+    "prompt": "If the cat is black, then the cat is furry. We know that If the cat is black, then the cat is furry. and The cat is black.",
+    "target": "Therefore, the cat is furry."
+  },
+  {
+    "prompt": "If we go swimming then we eat ice cream. We know that If it is warm then we go swimming.",
+    "target": "Therefore, we eat ice cream."
+  },
+  {
+    "prompt": "If something is red and it is round, then it is an apple. We know that The object is red. and The object is round.",
+    "target": "Therefore, the object is an apple."
+  },
+  {
+    "prompt": "If someone is a cat then they are fluffy. We know that The dog is a cat.",
+    "target": "Therefore, The dog is fluffy."
+  },
+  {
+    "prompt": "If someone is a mammal and they are big, then they are an elephant. We know that Fido is a mammal. and Fido is big.",
+    "target": "Therefore, Fido is an elephant."
+  },
+  {
+    "prompt": "If it is raining, then the ground is wet. We know that It is raining.",
+    "target": "Therefore, the ground is wet."
+  },
+  {
+    "prompt": "If the cat is purring and the cat is fed then the cat is happy. We know that The cat is purring. and The cat is fed.",
+    "target": "Therefore, the cat is happy."
+  },
+  {
+    "prompt": "If something is brown and the brown thing is furry then the cat is furry. We know that The cat is brown. and The brown thing is furry.",
+    "target": "Therefore, Therfore, the cat is furry."
+  },
+  {
+    "prompt": "If something visits the cow and the cow visits the lion then the lion is nice. We know that the lion visits the cow. and the cow visits the lion.",
+    "target": "Therefore, the lion is nice."
+  },
+  {
+    "prompt": "If the cat is on the mat, then the dog is sleeping. We know that The cat is on the mat.",
+    "target": "Therefore, {The dog is sleeping}."
+  },
+  {
+    "prompt": "If a person is happy, then they sing. We know that John is happy.",
+    "target": "Therefore, John sings."
+  },
+  {
+    "prompt": "If the dog is green, then the mouse is big. We know that The dog is green.",
+    "target": "Therefore, the mouse is big."
+  },
+  {
+    "prompt": "If the pen is red then the paper is white. We know that If the book is blue then the pen is red. and The book is blue.",
+    "target": "Therefore, the paper is white."
+  },
+  {
+    "prompt": "If the cat is black and the cat is small, then the cat is fast. We know that The cat is black. and The cat is small.",
+    "target": "Therefore, the cat is fast."
+  },
+  {
+    "prompt": "If something has fur and is a mammal then it needs grooming. We know that Cats are mammals. and Mammals have fur.",
+    "target": "Therefore, Cats need grooming."
+  },
+  {
+    "prompt": "If Spot is happy and Spot wags his tail, then Spot is a good boy. We know that Spot wags his tail. and Spot is happy.",
+    "target": "Therefore, Spot is a good boy."
+  },
+  {
+    "prompt": "If the animal is a dog and the animal is barking, then it is happy. We know that The animal is a dog. and The animal is barking.",
+    "target": "Therefore, the animal is happy."
+  },
+  {
+    "prompt": "If a bird is red, then it is a cardinal. We know that The bird is red.",
+    "target": "Therefore, the bird is a cardinal."
+  },
+  {
+    "prompt": "If a bird is red, it is a robin. We know that The animal is a bird. and The animal is red.",
+    "target": "Therefore, the animal is a robin."
+  },
+  {
+    "prompt": "If it is raining and I have no umbrella, I will get wet. We know that It is raining. and I have no umbrella.",
+    "target": "Therefore, I will get wet."
+  },
+  {
+    "prompt": "If someone eats candy then they are happy. We know that Bob eats candy. and If someone eats candy then they are happy.",
+    "target": "Therefore, Bob is happy."
+  },
+  {
+    "prompt": "If something visits the cow and the cow visits the lion then the lion is nice. We know that the lion visits the cow. and the cow visits the lion.",
+    "target": "Therefore, Therfore, the lion is nice."
+  },
+  {
+    "prompt": "If the cat is black and the dog is white then the bird is red. We know that The cat is black. and The dog is white.",
+    "target": "Therefore, the bird is red."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green then the sun is bright. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, the sun is bright."
+  },
+  {
+    "prompt": "If the sun is shining and it is daytime, then birds are singing. We know that The sun is shining. and It is daytime.",
+    "target": "Therefore, birds are singing."
+  },
+  {
+    "prompt": "If it is raining, then the ground is wet. We know that It is raining.",
+    "target": "Therefore, Therfore, the ground is wet."
+  },
+  {
+    "prompt": "If the sun is shining, then it is warm. We know that The sun is shining.",
+    "target": "Therefore, it is warm."
+  },
+  {
+    "prompt": "If the sensor is triggered and the power is on then the alarm sounds. We know that The sensor is triggered. and The power is on.",
+    "target": "Therefore, Therfore, the alarm sounds."
+  },
+  {
+    "prompt": "If the cat is blue, then the mouse is big. We know that The cat is blue.",
+    "target": "Therefore, the mouse is big."
+  },
+  {
+    "prompt": "If the animal is a cat then the animal has fur. We know that The animal is a cat.",
+    "target": "Therefore, the animal has fur."
+  },
+  {
+    "prompt": "If a plant is red, then it has thorns. We know that The object is a plant. and The object is red.",
+    "target": "Therefore, Therfore, the object has thorns."
+  },
+  {
+    "prompt": "The device can make calls. We know that If the device is a phone, then it can make calls. and The device is a phone.",
+    "target": "Therefore, the device can make calls."
+  },
+  {
+    "prompt": "If the cat is black then the cat is scary. We know that The cat is black.",
+    "target": "Therefore, Therfore, the cat is scary."
+  },
+  {
+    "prompt": "If something is cold and something is wet, then it is rain. We know that The floor is cold. and The floor is wet.",
+    "target": "Therefore, the floor is rain."
+  },
+  {
+    "prompt": "If the cat is black and the dog is white, then the bird sings. We know that The cat is black. and The dog is white.",
+    "target": "Therefore, Therfore, the bird sings."
+  },
+  {
+    "prompt": "If something is cold-blooded then it is an animal. We know that The frog is cold-blooded.",
+    "target": "Therefore, the frog is an animal."
+  },
+  {
+    "prompt": "The apple is a fruit. We know that If something is red then it is a fruit. and The apple is red.",
+    "target": "Therefore, the apple is a fruit."
+  },
+  {
+    "prompt": "If a dog is furry then it barks. We know that Rover is a dog. and Rover is furry.",
+    "target": "Therefore, Therfore, Rover barks."
+  },
+  {
+    "prompt": "If the cat is on the mat then the dog is in the basket. We know that The cat is on the mat.",
+    "target": "Therefore, the dog is in the basket."
+  },
+  {
+    "prompt": "If the fruit is red, then the fruit is ripe. We know that The fruit is red.",
+    "target": "Therefore, Therfore, the fruit is ripe."
+  },
+  {
+    "prompt": "If the key is shiny, then the door is open. We know that If the key is shiny, then the door is open. and The key is shiny.",
+    "target": "Therefore, the door is open."
+  },
+  {
+    "prompt": "If the cat is black and the dog is white, then the mouse is grey. We know that The cat is black. and The dog is white.",
+    "target": "Therefore, the mouse is grey."
+  },
+  {
+    "prompt": "If someone is a student and they are smart, then they pass the exam. We know that John is a student. and John is smart.",
+    "target": "Therefore, John passes the exam."
+  },
+  {
+    "prompt": "If it is raining and it is cold, then I will stay inside. We know that It is raining. and It is cold.",
+    "target": "Therefore, Therfore, I will stay inside."
+  },
+  {
+    "prompt": "If the cat is black and the dog is white then the bird is red. We know that The cat is black. and The dog is white.",
+    "target": "Therefore, the bird is red."
+  },
+  {
+    "prompt": "All cold-blooded animals are reptiles. We know that If Fred is a snake, then Fred is cold-blooded. and Fred is a snake.",
+    "target": "Therefore, Fred is a reptile."
+  },
+  {
+    "prompt": "If something is green and round then it is a vegetable. We know that The ball is green. and The ball is round.",
+    "target": "Therefore, the ball is a vegetable."
+  },
+  {
+    "prompt": "If something is a finch, then it is small. We know that Tweety is a finch.",
+    "target": "Therefore, Tweety is small."
+  },
+  {
+    "prompt": "If the cat is black then the dog is happy. We know that The cat is black.",
+    "target": "Therefore, the dog is happy."
+  },
+  {
+    "prompt": "If the dog is brown then the bird is green. We know that The cat is black. and If the cat is black then the dog is brown.",
+    "target": "Therefore, the bird is green."
+  },
+  {
+    "prompt": "If something is big and red then it is heavy. We know that The ball is big. and The ball is red.",
+    "target": "Therefore, Therfore, the ball is heavy."
+  },
+  {
+    "prompt": "If the cat is black and the dog is white then the bird is red. We know that The cat is black. and The dog is white.",
+    "target": "Therefore, the bird is red."
+  },
+  {
+    "prompt": "The animal has fur. We know that If an animal is a mammal then it has fur. and The animal is a mammal.",
+    "target": "Therefore, the animal has fur."
+  },
+  {
+    "prompt": "If the monkey is green, then the monkey is blue. We know that If the monkey is red, then the monkey is green. and The monkey is red.",
+    "target": "Therefore, the monkey is blue."
+  },
+  {
+    "prompt": "If the sun is shining and the birds are singing then it is a lovely day. We know that The sun is shining. and The birds are singing.",
+    "target": "Therefore, it is a lovely day."
+  },
+  {
+    "prompt": "If the sun is shining and it is raining then there is a rainbow. We know that The sun is shining. and It is raining.",
+    "target": "Therefore, there is a rainbow."
+  },
+  {
+    "prompt": "If an animal is small, it is furry. We know that The cat is small. and The cat is an animal.",
+    "target": "Therefore, the cat is furry."
+  },
+  {
+    "prompt": "If something visits the cow and the cow visits the lion then the lion is nice. We know that the lion visits the cow. and the cow visits the lion.",
+    "target": "Therefore, the lion is nice."
+  },
+  {
+    "prompt": "The table is strong. We know that If the book is heavy, then the table is strong. and The book is heavy.",
+    "target": "Therefore, the table is strong."
+  },
+  {
+    "prompt": "If a cat is black and a dog is white then the animal shelter is full. We know that The cat is black. and The dog is white.",
+    "target": "Therefore, the animal shelter is full."
+  },
+  {
+    "prompt": "If something is blue then it is big. We know that The box is blue.",
+    "target": "Therefore, the box is big."
+  },
+  {
+    "prompt": "If the sun is bright then the bird sings. We know that The sun is bright.",
+    "target": "Therefore, the bird sings."
+  },
+  {
+    "prompt": "If something is green then it is a frog. We know that The animal is green.",
+    "target": "Therefore, the animal is a frog."
+  },
+  {
+    "prompt": "If something is red and round then it is a fruit. We know that The apple is red. and The apple is round.",
+    "target": "Therefore, the apple is a fruit."
+  },
+  {
+    "prompt": "If Fido barks then Fido is happy. We know that Fido barks.",
+    "target": "Therefore, Fido is happy."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green then the day is pleasant. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, Therfore, the day is pleasant."
+  },
+  {
+    "prompt": "If something is green then it is furry. We know that A dog is green. and If something is green then it is furry.",
+    "target": "Therefore, Therfore, the dog is furry."
+  },
+  {
+    "prompt": "If the bear is cold then the bear is kind. We know that The bear is cold.",
+    "target": "Therefore, Therfore, the bear is kind."
+  },
+  {
+    "prompt": "If the car is fast then the car is expensive. We know that The car is fast. and If the car is fast then the car is expensive.",
+    "target": "Therefore, the car is expensive."
+  },
+  {
+    "prompt": "If it is warm then I go outside. We know that It is warm.",
+    "target": "Therefore, I go outside."
+  },
+  {
+    "prompt": "If it is warm, then we go to the park. We know that It is warm.",
+    "target": "Therefore, we go to the park."
+  },
+  {
+    "prompt": "If Tweety has wings, then Tweety can fly. We know that If Tweety is a bird, then Tweety has wings. and Tweety is a bird.",
+    "target": "Therefore, Tweety can fly."
+  },
+  {
+    "prompt": "If the sky is blue then the sun is shining. We know that The sky is blue.",
+    "target": "Therefore, Therfore, the sun is shining."
+  },
+  {
+    "prompt": "If the key is metal and the lock is old then the door opens. We know that The key is metal. and The lock is old.",
+    "target": "Therefore, the door opens."
+  },
+  {
+    "prompt": "If something visits the cow and the cow visits the lion then the lion is nice. We know that the lion visits the cow. and the cow visits the lion.",
+    "target": "Therefore, the lion is nice."
+  },
+  {
+    "prompt": "If the cat is black and the dog is white then the sky is blue. We know that The cat is black. and The dog is white.",
+    "target": "Therefore, the sky is blue."
+  },
+  {
+    "prompt": "If something is furry and small then it is cute. We know that The cat is furry. and The cat is small.",
+    "target": "Therefore, Therfore, it is cute."
+  },
+  {
+    "prompt": "If someone is green, they are nice. We know that John is green.",
+    "target": "Therefore, John is nice."
+  },
+  {
+    "prompt": "If the park is closed then the store is open. We know that If the weather is cold then the park is closed. and The weather is cold.",
+    "target": "Therefore, the store is open."
+  },
+  {
+    "prompt": "If the birds are singing then the sky is blue. We know that The birds are singing.",
+    "target": "Therefore, Therfore, the sky is blue."
+  },
+  {
+    "prompt": "If something is big, it is heavy. We know that If something is big, it is heavy. and The elephant is big.",
+    "target": "Therefore, the elephant is heavy."
+  },
+  {
+    "prompt": "If the animal is small and the animal is furry then the animal is a cat. We know that The animal is furry. and The animal is small.",
+    "target": "Therefore, the animal is a cat."
+  },
+  {
+    "prompt": "If the bird is red, then the bird is small. We know that The bird is red.",
+    "target": "Therefore, the bird is small."
+  },
+  {
+    "prompt": "If something is a fish then it lives in water. We know that A trout is a fish.",
+    "target": "Therefore, Therfore, A trout lives in water."
+  },
+  {
+    "prompt": "If it is raining, then the ground is wet. We know that It is raining.",
+    "target": "Therefore, the ground is wet."
+  },
+  {
+    "prompt": "If the animal is large then the animal is a mammal. We know that The animal is large.",
+    "target": "Therefore, the animal is a mammal."
+  },
+  {
+    "prompt": "If the cat is black and the bird is red then the dog is happy. We know that The cat is black. and The bird is red.",
+    "target": "Therefore, the dog is happy."
+  },
+  {
+    "prompt": "If something is a bird, then it has feathers. We know that The robin is a bird.",
+    "target": "Therefore, The robin has feathers."
+  },
+  {
+    "prompt": "If the item is blue and the item is round, then the item is a ball. We know that The item is blue. and The item is round.",
+    "target": "Therefore, the item is a ball."
+  },
+  {
+    "prompt": "If the animal is a cat, then the animal likes to chase mice. We know that The animal is a cat.",
+    "target": "Therefore, the animal likes to chase mice."
+  },
+  {
+    "prompt": "If something barks then it is loud. We know that Fido barks.",
+    "target": "Therefore, Fido is loud."
+  },
+  {
+    "prompt": "All birds have wings. We know that A robin is a bird.",
+    "target": "Therefore, A robin has wings."
+  },
+  {
+    "prompt": "If the sky is blue and the grass is green, then it is daytime. We know that The sky is blue. and The grass is green.",
+    "target": "Therefore, it is daytime."
+  },
+  {
+    "prompt": "If a person is a doctor and lives in London then they are busy. We know that John is a doctor. and John lives in London.",
+    "target": "Therefore, John is busy."
+  },
+  {
+    "prompt": "If something is a bird, then it can fly. We know that A robin is a bird.",
+    "target": "Therefore, the robin can fly."
+  },
+  {
+    "prompt": "If the animal is gray then the animal is large. We know that the animal is gray.",
+    "target": "Therefore, the animal is large."
+  },
+  {
+    "prompt": "If the book is thick and the book is heavy, then reading it is difficult. We know that The book is thick. and The book is heavy.",
+    "target": "Therefore, reading it is difficult."
+  },
+  {
+    "prompt": "If the key is shiny and the box is old, then the treasure is inside. We know that The key is shiny. and The box is old.",
+    "target": "Therefore, the treasure is inside."
+  },
+  {
+    "prompt": "If the cake is chocolate and the cake is large then the cake is tasty. We know that The cake is chocolate. and The cake is large.",
+    "target": "Therefore, the cake is tasty."
+  },
+  {
+    "prompt": "If the plant is a rose, then it has thorns. We know that The plant is a rose.",
+    "target": "Therefore, the plant has thorns."
+  },
+  {
+    "prompt": "If the animal is a cat and the animal has fur, then the animal is cute. We know that The animal is a cat. and If the animal has fur, it needs grooming.",
+    "target": "Therefore, the animal is cute."
+  },
+  {
+    "prompt": "The ground is wet. We know that If it's raining, the ground is wet. and It is raining.",
+    "target": "Therefore, The ground is wet."
+  },
+  {
+    "prompt": "If something is green and it is big, then it jumps. We know that The object is green. and The object is big.",
+    "target": "Therefore, the object jumps."
+  },
+  {
+    "prompt": "If something is big and red, it is a fire truck. We know that The vehicle is big. and The vehicle is red.",
+    "target": "Therefore, the vehicle is a fire truck."
+  },
+  {
+    "prompt": "The ground is wet. We know that If it is raining then the ground is wet. and It is raining.",
+    "target": "Therefore, the ground is wet."
+  },
+  {
+    "prompt": "If the bear is furry, then the cat is large. We know that The bear is furry.",
+    "target": "Therefore, the cat is large."
+  },
+  {
+    "prompt": "If something is big and furry then it is a dog. We know that The cat is big. and The cat is furry.",
+    "target": "Therefore, The cat is a dog."
+  },
+  {
+    "prompt": "If a thing is metal and it is shiny, then it is silver. We know that The ring is metal. and The ring is shiny.",
+    "target": "Therefore, the ring is silver."
+  },
+  {
+    "prompt": "If A is true and B is true, then C is true. We know that A is true. and B is true.",
+    "target": "Therefore, C is true."
+  },
+  {
+    "prompt": "If the key is small and the box is heavy, then the door is locked. We know that The key is small. and The box is heavy.",
+    "target": "Therefore, the door is locked."
+  },
+  {
+    "prompt": "If a bird is a crow then it is black. We know that Polly is a bird. and Polly is a crow.",
+    "target": "Therefore, Polly is black."
+  },
+  {
+    "prompt": "If the dog is brown and the cat is black then the bird is red. We know that The dog is brown. and The cat is black.",
+    "target": "Therefore, the bird is red."
+  },
+  {
+    "prompt": "If the box is red and the box is heavy then the lid is closed. We know that The box is red. and The box is heavy.",
+    "target": "Therefore, the lid is closed."
+  },
+  {
+    "prompt": "If someone is a gardener and they have green fingers, then they grow beautiful flowers. We know that Alice is a gardener. and Alice has green fingers.",
+    "target": "Therefore, Alice grows beautiful flowers."
+  },
+  {
+    "prompt": "If something visits the cow and the cow visits the lion then the lion is nice. We know that the lion visits the cow. and the cow visits the lion.",
+    "target": "Therefore, the lion is nice."
+  },
+  {
+    "prompt": "If something is red and it is heavy then it is a gift. We know that If something is big it is red. and The box is heavy.",
+    "target": "Therefore, it is a gift."
+  },
+  {
+    "prompt": "If the bear is furry, then the wolf is green. We know that The bear is furry.",
+    "target": "Therefore, the wolf is green."
+  },
+  {
+    "prompt": "If something can fly, it is light. We know that Tweety can fly.",
+    "target": "Therefore, Tweety is light."
+  },
+  {
+    "prompt": "If the object is blue then the object is large. We know that The object is blue.",
+    "target": "Therefore, the object is large."
+  },
+  {
+    "prompt": "If the bird is yellow, then the bird is small. We know that The bird is yellow. and If the bird is yellow, then the bird is small.",
+    "target": "Therefore, the bird is small."
+  },
+  {
+    "prompt": "If something is big and something is red then it is visible. We know that The ball is big. and The ball is red.",
+    "target": "Therefore, The ball is visible."
+  },
+  {
+    "prompt": "If the cat is young, then the cat is happy. We know that The cat is young. and If the cat is young, then the cat is happy.",
+    "target": "Therefore, the cat is happy."
+  },
+  {
+    "prompt": "If the ant is blue, then the ant is kind. We know that The ant is blue.",
+    "target": "Therefore, the ant is kind."
+  },
+  {
+    "prompt": "If a student studies hard, they get good grades. We know that John studies hard.",
+    "target": "Therefore, John gets good grades."
+  },
+  {
+    "prompt": "If a person is happy and they are smiling then they like ice cream. We know that Bob is happy. and Bob is smiling.",
+    "target": "Therefore, Bob likes ice cream."
+  },
+  {
+    "prompt": "The dog is furry. We know that If the dog is green then the dog is furry. and The dog is green.",
+    "target": "Therefore, the dog is furry."
+  },
+  {
+    "prompt": "If something is a bird and it is big, then it is an ostrich. We know that Tweety is a bird. and Tweety is big.",
+    "target": "Therefore, Tweety is an ostrich."
+  },
+  {
+    "prompt": "If a creature is furry and it barks then it is a dog. We know that The creature is furry. and The creature barks.",
+    "target": "Therefore, the creature is a dog."
+  },
+  {
+    "prompt": "If the cat is green then the dog is big. We know that The cat is green.",
+    "target": "Therefore, the dog is big."
+  },
+  {
+    "prompt": "If something is happy then it is also fuzzy. We know that If something is green then it is happy. and The cat is green.",
+    "target": "Therefore, the cat is fuzzy."
+  },
+  {
+    "prompt": "If it rained then the ground is wet. We know that It rained.",
+    "target": "Therefore, the ground is wet."
+  }
+]
