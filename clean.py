@@ -17,5 +17,5 @@ for dp in data:
                 "idx": [i]
             })
 
-with open('processed_train_v1.json', 'w', encoding='utf-8') as f:
+with open('preprocessed_train.json', 'w', encoding='utf-8') as f:
     json.dump(processed, f, ensure_ascii=False, indent=2)
