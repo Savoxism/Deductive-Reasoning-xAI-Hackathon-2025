@@ -22726,7 +22726,7 @@
         ],
         "questions": [
             "Which statement about security systems can we conclude from the given information?\nA. Every security system with motion detection includes door sensors.\nB. Every security system with an alarm system detects motion.\nC. Some security systems lack video surveillance.\nD. Every security system with door sensors integrates with smart home devices.",
-            "Is it true that every security system integrates with smart home devices?"
+            "Is it true that every security system integrates with smart home devices?" 
         ],
         "answers": [
             "A",
