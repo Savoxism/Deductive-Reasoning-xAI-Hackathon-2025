@@ -6,9 +6,10 @@ import re
 load_dotenv()
 client = Together()
 
-# TOGETHER_API_KEY = "e686d82b696a086fd7dd6478652f1c55fd332ed03f2aa07baefbb3213158041f"
+TOGETHER_API_KEY = "27a9f0e0147951c48422d635013f95555e46677ba2281d622974976fcba116fa"
 
-os.environ["TOGETHER_API_KEY"] = os.getenv("TOGETHER_API_KEY")
+# os.environ["TOGETHER_API_KEY"] = os.getenv("TOGETHER_API_KEY")
+os.environ["TOGETHER_API_KEY"] = TOGETHER_API_KEY
 
 LOOP = 2
 MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct-Turbo"
@@ -130,26 +131,25 @@ def score_premise(premise: str, ctx_text: str, question: str, current_sel: str):
     return sum(t for t in token_logprobs if t is not None)
 
 premises = [
-     "If an aviation student completes the aircraft theory course, they are allowed to participate in the flight practice course.",
-            "If the weather is bad on the practice day, the flight will be delayed by at least 2 hours.",
-            "Students must complete a safety test before flight practice within 1 hour.",
-            "If they fail the safety test, students cannot fly and must retake the theory course.",
-            "If the flight is delayed by more than 3 hours, students are refunded 50% of the practice course fee.",
-            "If students fly more than 1 hour late from the schedule, they must submit a supplementary report.",
-            "The flight practice course requires at least 2 instructors: a flight instructor and a technician.",
-            "If the flight instructor is absent, the course must find a replacement within 1 hour.",
-            "If no replacement is found, the practice session is canceled and students must re-register.",
-            "Students must submit their practice registration application 7 days in advance for scheduling.",
-            "Lan completed the aircraft theory course on March 20, 2025.",
-            "Bad weather was reported at 8:00 AM on the practice day, March 25, 2025.",
-            "Lan passed the safety test at 7:30 AM on the same day.",
-            "The flight instructor was absent at 8:15 AM on the practice day.",
-            "No replacement flight instructor was found within 1 hour.",
-            "Students must be notified of the practice session cancellation at least 30 minutes before the scheduled 9:00 AM flight.",
-            "If the practice session is canceled, students must take a make-up session within 2 weeks or lose their flight exam eligibility."
+"Students who miss any quiz will fail the class.",
+            "Students who score less than 50% on the final exam will fail the class.",
+            "Students who complete all homework and attend every class will pass the final exam.",
+            "Ponko completed all homework but missed one class.",
+            "Students who fail the class must retake it next semester."
+
+
 ]
 
-question = "Can Lan participate in the flight practice session, and if not, does she have to take a make-up session within 2 weeks to retain her flight exam eligibility, considering the weather, absent instructor, and cancellation notification time?"
+question = """
+   "Will Ponko fail the class?"
+            
+
+"""
+
+
+
+
+
 
 NUM_SELECTIONS = 2
 selected_premises_history = set()
