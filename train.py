@@ -7,7 +7,7 @@ from datasets import load_dataset, Dataset
 from trl import GRPOConfig, GRPOTrainer
 from huggingface_hub import login
 
-API_KEY = "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"
+API_KEY = "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"
 login(token=API_KEY)
 
 max_seq_length = 2048
